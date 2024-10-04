@@ -19,7 +19,7 @@ You can integrate the Uptick SDK using Swift Package Manager. Follow these steps
    ```
    https://github.com/axeldeploy/uptick-ios
    ```
-7. Select the main and press **Add Package**.
+7. Select the **main** branch and press **Add Package**.
 8. Assign the package to your app target.
 
 ### 2. Manual XCFramework Integration
