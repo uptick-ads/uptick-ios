@@ -33,11 +33,7 @@ If you prefer manual integration, follow these steps:
    - In the **General** tab, find the **Frameworks, Libraries, and Embedded Content** section.
    - Drag and drop `UptickSDK.xcframework` here.
    - Set the **Embed** option to **Embed & Sign**.
-3. **Build Settings**:
-   - In the **Build Settings** tab, ensure that:
-     - **Always Embed Swift Standard Libraries** is set to `Yes`.
-     - **Enable Bitcode** is set to `No` if Bitcode is not supported.
-4. **Import the SDK** in Swift or Objective-C files:
+3. **Import the SDK** in Swift or Objective-C files:
    - Swift:
      ```swift
      import UptickSDK
