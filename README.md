@@ -1,5 +1,3 @@
-To adjust the previous answer for a **README.md** file in a GitHub repository, here's the refined version formatted appropriately:
-
 ---
 
 # Uptick iOS SDK Integration
