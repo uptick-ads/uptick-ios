@@ -139,9 +139,9 @@ class ViewController: UIViewController {
         defaultButton.addTarget(self, action: #selector(onDefaultButton), for: .touchUpInside)
         integrationIdTextField.text = "0bf6f068-6bf5-49f1-a6bc-822eee7d4db3"
         placementTextField.text = "order_confirmation"
-        UptickManager.shared.backgroundColor = .red
-        UptickManager.shared.primaryColor = .blue
-        UptickManager.shared.secondaryColor = .yellow
+        UptickManager.shared.backgroundColor = .white
+        UptickManager.shared.primaryColor = .systemRed
+        UptickManager.shared.secondaryColor = .lightGray
         UptickManager.shared.errorMessage = { errorMessage in
             print(errorMessage)
         }
@@ -159,6 +159,10 @@ extension ViewController {
     }
     
     func onDefaultButton() {
+        let id = "2a1c3b6e-e148-45e5-bd43-ea0b1c11dad0"
+        let placement = "order_confirmation"
+        integrationIdTextField.text = id
+        placementTextField.text = placement
         UptickManager.shared.activateAd(in: uptickAdView, withID: "2a1c3b6e-e148-45e5-bd43-ea0b1c11dad0", placement: "order_confirmation")
         integrationIdTextField.resignFirstResponder()
         placementTextField.resignFirstResponder()
@@ -207,7 +211,6 @@ extension ViewController {
         return button
     }
 }
-
 
 ```
 
