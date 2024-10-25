@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/UptickSDK-Swift.h</key>
 		<data>
-		ROeoMKbLq9eq3GJFCJWqpyEVjSA=
+		qGwroreKWOG8MJSkCeMkSmnEAoc=
 		</data>
 		<key>Headers/UptickSDK.h</key>
 		<data>
@@ -14,55 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		a1dHwpPgDIU1KGIypDiLV1z5FSM=
+		vuoo99D4BRzU+Zcd64/DUa6Zx7c=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		PMVRnv1FNtrRmEzfsT1Q5ymZAck=
+		bXDUKJkI2afQRTOOh6w8X8WTH2c=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		yrooxSrFCBHc8AwsggRUSNofPvA=
+		0NBAOBZJHyBml61+hX+ImJjHViw=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		eSz7WNj3HF4QEA9xdeDXgvnQwls=
+		z0H/6iwPJmwWnb8LTrgXuKTVm3w=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2D6xeaI4aBtVvV4XIsPGp8c5M1g=
+		lA/WHIqTVNLLoFw5vtw3qtTQGXE=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5QsGZpcP7n5veO92lzFqIYEcPkA=
+		jLWWteAqFwt+YB/Qa62Z6hKcGxY=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2D6xeaI4aBtVvV4XIsPGp8c5M1g=
+		lA/WHIqTVNLLoFw5vtw3qtTQGXE=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WWbLfNGOB6tTDsE+Zwo2K613hB0=
+		EcQ/F/0DKeL6ZTK22HrWsx/9tAs=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		eSz7WNj3HF4QEA9xdeDXgvnQwls=
+		z0H/6iwPJmwWnb8LTrgXuKTVm3w=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XxxTgRcUN8ISIEl2N1FmL1ExD0k=
+		eTH6NcX6ezJ39YvW+0Ri/jKRZnc=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jpo7o+/yB1TKXBHKOOpTdAxACBw=
+		v2oT8f5zKum0wk4Jh9lsECjZ9NE=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XxxTgRcUN8ISIEl2N1FmL1ExD0k=
+		eTH6NcX6ezJ39YvW+0Ri/jKRZnc=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		u2jSJ2mfsmNdCVa/CsfsansYUe8=
+		JV2Xgz8xj1B/M7PVQuuRyWoTPTI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F95UECC0dUXJtCkffkaVoqrNGe2wy3rG2IayTV5Y4jU=
+			BF/p+9xsWMxsdcHHG309eRaUv2B/q60HToQlyTGeoWY=
 			</data>
 		</dict>
 		<key>Headers/UptickSDK.h</key>
@@ -89,84 +89,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			80ksXAf7LsKPwLb9c6V7ILACjjsx4RwqudMAJGnsr4w=
+			63GvHphW6PS+7k5tYIjTSyOWHrDeADDU8dp48KqTAqE=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SUPNCLm09XDYiBbgzooFnC/cdUchZm0rezRv6rZUYcA=
+			1gYLnRkVi8lQt3c1Rviq5nzDFlEd7GtNBWSKGzzGkt8=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fddOi7fmntL+ZJonTHlpoiet8fi8RQSRO5xIU+W0lD4=
+			zHGKfz5VQPsE7PYTm6K9o2TVTVzElgPOOEfdd4Tzw4g=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YxF6gJvBOnj/NkfS8e4CfNRrPyYILXwgfXc7cAOi/GE=
+			zB/seMKnF39eanGWZ6kPQw7jmbdJKLaQQRa1+A7ZeyI=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l94z9f3zUiDJelXQS7Vmm9WzIP6nC5g211AhOgesfhI=
+			LlkazJzsbk9bZS+bR17YaJJFQ27OPvuYPjeHDofTQrE=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YxF6gJvBOnj/NkfS8e4CfNRrPyYILXwgfXc7cAOi/GE=
+			zB/seMKnF39eanGWZ6kPQw7jmbdJKLaQQRa1+A7ZeyI=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NNN00BEa6nNVBTYIuYoxWl+vRhpDulsON9cEBQ1jmWA=
+			jNri6eHuozLUWJOdFvE6ikadN6TukYGrm9xcEV8tuqI=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fddOi7fmntL+ZJonTHlpoiet8fi8RQSRO5xIU+W0lD4=
+			zHGKfz5VQPsE7PYTm6K9o2TVTVzElgPOOEfdd4Tzw4g=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zGaw8igbQkPBbBhmqtgngOzVSSwL6+4aDFmpvPFeueo=
+			S5UUaC/X4KB40vx9bICq0X2V2TnDTdlzpYemaPEopVg=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xsA1SGjFVi3Dj3+K1tol3zmHDfRMrWSpCtZc+HK89uE=
+			CSCO7mTugURquWk3flJBh/jjpa0VbvvThC5euY4+Wes=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zGaw8igbQkPBbBhmqtgngOzVSSwL6+4aDFmpvPFeueo=
+			S5UUaC/X4KB40vx9bICq0X2V2TnDTdlzpYemaPEopVg=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ocJVf+RABVFAnXHHqu3ajIKwSFUHeAGOfTThl+4GSgs=
+			0ADumJNujfy83BMGGAHsyWm6xDJGjtvXiDz5bBo8V1I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

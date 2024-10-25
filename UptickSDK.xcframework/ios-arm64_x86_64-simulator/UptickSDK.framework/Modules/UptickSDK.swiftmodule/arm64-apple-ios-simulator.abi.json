@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "UptickSDK",
-    "printedName": "UptickSDK",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
     "children": [
       {
         "kind": "Import",
@@ -34,7 +34,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -139,10 +138,9 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Preconcurrency",
+              "HasStorage",
               "Custom",
-              "Final",
-              "HasStorage"
+              "Final"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true
@@ -165,7 +163,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -270,10 +267,9 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Preconcurrency",
+              "HasStorage",
               "Custom",
-              "Final",
-              "HasStorage"
+              "Final"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true
@@ -305,7 +301,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -346,7 +341,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -368,7 +362,6 @@
             "mangledName": "$s9UptickSDK11ActionsViewC11setSubviewsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -391,7 +384,6 @@
             "mangledName": "$s9UptickSDK11ActionsViewC14setConstraintsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -414,7 +406,6 @@
             "mangledName": "$s9UptickSDK11ActionsViewC13setPropertiesyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -439,7 +430,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -463,7 +453,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -475,7 +464,6 @@
         "mangledName": "$s9UptickSDK11ActionsViewC",
         "moduleName": "UptickSDK",
         "declAttributes": [
-          "Preconcurrency",
           "Custom",
           "Final",
           "RawDocComment",
@@ -489,20 +477,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -598,7 +572,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -703,10 +676,9 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Preconcurrency",
+              "HasStorage",
               "Custom",
-              "Final",
-              "HasStorage"
+              "Final"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true
@@ -738,7 +710,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -779,7 +750,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -801,7 +771,6 @@
             "mangledName": "$s9UptickSDK8IconViewC11setSubviewsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -824,7 +793,6 @@
             "mangledName": "$s9UptickSDK8IconViewC14setConstraintsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -847,7 +815,6 @@
             "mangledName": "$s9UptickSDK8IconViewC13setPropertiesyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -872,7 +839,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -884,7 +850,6 @@
         "mangledName": "$s9UptickSDK8IconViewC",
         "moduleName": "UptickSDK",
         "declAttributes": [
-          "Preconcurrency",
           "Custom",
           "Final",
           "RawDocComment",
@@ -898,20 +863,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1014,7 +965,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -1119,10 +1069,9 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Preconcurrency",
+              "HasStorage",
               "Custom",
-              "Final",
-              "HasStorage"
+              "Final"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true
@@ -1154,7 +1103,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -1195,7 +1143,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -1217,7 +1164,6 @@
             "mangledName": "$s9UptickSDK13SponsoredViewC11setSubviewsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -1240,7 +1186,6 @@
             "mangledName": "$s9UptickSDK13SponsoredViewC14setConstraintsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -1263,7 +1208,6 @@
             "mangledName": "$s9UptickSDK13SponsoredViewC13setPropertiesyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -1288,7 +1232,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -1300,7 +1243,6 @@
         "mangledName": "$s9UptickSDK13SponsoredViewC",
         "moduleName": "UptickSDK",
         "declAttributes": [
-          "Preconcurrency",
           "Custom",
           "Final",
           "RawDocComment",
@@ -1314,20 +1256,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1715,31 +1643,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -2100,20 +2007,6 @@
         "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
         "sugared_genericSig": "<T where T : Swift.Decodable>",
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -2521,20 +2414,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2690,20 +2569,6 @@
         "mangledName": "$s9UptickSDK13NewOfferErrorV",
         "moduleName": "UptickSDK",
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -2887,20 +2752,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3056,20 +2907,6 @@
         "mangledName": "$s9UptickSDK18NextOfferErrorBodyV",
         "moduleName": "UptickSDK",
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -3595,20 +3432,6 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -3971,20 +3794,6 @@
             "mangledName": "$s9UptickSDK10OfferModelO04NextcD0V",
             "moduleName": "UptickSDK",
             "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
               {
                 "kind": "Conformance",
                 "name": "Decodable",
@@ -4851,20 +4660,6 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5200,20 +4995,6 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -5232,13 +5013,6 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "BitwiseCopyable",
-                "printedName": "BitwiseCopyable",
-                "usr": "s:s15BitwiseCopyableP",
-                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -5530,20 +5304,6 @@
             "mangledName": "$s9UptickSDK10OfferModelO04TextD0V",
             "moduleName": "UptickSDK",
             "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
               {
                 "kind": "Conformance",
                 "name": "Decodable",
@@ -5958,20 +5718,6 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -6151,20 +5897,6 @@
             "mangledName": "$s9UptickSDK10OfferModelO014AttributeImageD0V",
             "moduleName": "UptickSDK",
             "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
               {
                 "kind": "Conformance",
                 "name": "Decodable",
@@ -6555,20 +6287,6 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -6902,20 +6620,6 @@
             "mangledName": "$s9UptickSDK10OfferModelO016ActionsAttributeD0V",
             "moduleName": "UptickSDK",
             "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
               {
                 "kind": "Conformance",
                 "name": "Decodable",
@@ -7253,20 +6957,6 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -7578,20 +7268,6 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Decodable",
                 "printedName": "Decodable",
                 "usr": "s:Se",
@@ -7802,20 +7478,6 @@
             "mangledName": "$s9UptickSDK10OfferModelO0c4CellD0V",
             "moduleName": "UptickSDK",
             "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
               {
                 "kind": "Conformance",
                 "name": "Sendable",
@@ -8242,20 +7904,6 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
@@ -8272,31 +7920,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -9011,17 +8638,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
+            "name": "UptickServiceDelegate",
+            "printedName": "UptickServiceDelegate",
+            "usr": "s:9UptickSDK0A15ServiceDelegateP",
+            "mangledName": "$s9UptickSDK0A15ServiceDelegateP"
           },
           {
             "kind": "Conformance",
@@ -9071,13 +8691,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UptickServiceDelegate",
-            "printedName": "UptickServiceDelegate",
-            "usr": "s:9UptickSDK0A15ServiceDelegateP",
-            "mangledName": "$s9UptickSDK0A15ServiceDelegateP"
           }
         ]
       },
@@ -9331,23 +8944,7 @@
         "usr": "s:9UptickSDK9APIClientC",
         "mangledName": "$s9UptickSDK9APIClientC",
         "moduleName": "UptickSDK",
-        "isOpen": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
+        "isOpen": true
       },
       {
         "kind": "Import",
@@ -9379,7 +8976,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -9468,7 +9064,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -9557,7 +9152,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -9646,7 +9240,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -9735,7 +9328,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -9824,7 +9416,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -9913,7 +9504,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -10002,7 +9592,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -10091,7 +9680,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -10180,7 +9768,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -10269,7 +9856,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -10358,7 +9944,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -10456,7 +10041,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -10483,7 +10067,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -10525,7 +10108,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -10548,7 +10130,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10571,7 +10152,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10594,7 +10174,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10624,7 +10203,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10648,7 +10226,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10672,7 +10249,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10696,7 +10272,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10720,7 +10295,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10744,7 +10318,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10768,7 +10341,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10792,7 +10364,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10816,7 +10387,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10840,7 +10410,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10864,7 +10433,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -10877,7 +10445,6 @@
         "moduleName": "UptickSDK",
         "isOpen": true,
         "declAttributes": [
-          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment",
@@ -10892,20 +10459,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11008,7 +10561,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -11113,10 +10665,9 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Preconcurrency",
+              "HasStorage",
               "Custom",
-              "Final",
-              "HasStorage"
+              "Final"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true
@@ -11148,7 +10699,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -11189,7 +10739,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -11211,7 +10760,6 @@
             "mangledName": "$s9UptickSDK11ContentViewC11setSubviewsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -11234,7 +10782,6 @@
             "mangledName": "$s9UptickSDK11ContentViewC14setConstraintsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -11257,7 +10804,6 @@
             "mangledName": "$s9UptickSDK11ContentViewC13setPropertiesyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -11282,7 +10828,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -11294,7 +10839,6 @@
         "mangledName": "$s9UptickSDK11ContentViewC",
         "moduleName": "UptickSDK",
         "declAttributes": [
-          "Preconcurrency",
           "Custom",
           "Final",
           "RawDocComment",
@@ -11308,20 +10852,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11424,7 +10954,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -11523,10 +11052,9 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Preconcurrency",
+              "HasStorage",
               "Custom",
-              "Final",
-              "HasStorage"
+              "Final"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true
@@ -11549,7 +11077,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -11648,10 +11175,9 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Preconcurrency",
+              "HasStorage",
               "Custom",
-              "Final",
-              "HasStorage"
+              "Final"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true
@@ -11683,7 +11209,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -11711,7 +11236,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -11738,7 +11262,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -11779,7 +11302,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -11808,7 +11330,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -11831,7 +11352,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -11854,7 +11374,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -11878,7 +11397,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -11902,7 +11420,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -11915,7 +11432,6 @@
         "moduleName": "UptickSDK",
         "isOpen": true,
         "declAttributes": [
-          "Preconcurrency",
           "Custom",
           "ObjC"
         ],
@@ -11929,20 +11445,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -12060,23 +11562,7 @@
         "mangledName": "$s9UptickSDK0A15ServiceDelegateP",
         "moduleName": "UptickSDK",
         "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
+        "sugared_genericSig": "<Self : AnyObject>"
       },
       {
         "kind": "TypeDecl",
@@ -12686,7 +12172,6 @@
             "declAttributes": [
               "Final",
               "ObjC",
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -12724,7 +12209,6 @@
             "declAttributes": [
               "Final",
               "ObjC",
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -12784,20 +12268,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -12879,7 +12349,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -12984,10 +12453,9 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Preconcurrency",
+              "HasStorage",
               "Custom",
-              "Final",
-              "HasStorage"
+              "Final"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true
@@ -13019,9 +12487,8 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
+              "HasStorage",
+              "Custom"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -13141,7 +12608,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -13182,7 +12648,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -13204,7 +12669,6 @@
             "mangledName": "$s9UptickSDK9OfferViewC11setSubviewsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -13227,7 +12691,6 @@
             "mangledName": "$s9UptickSDK9OfferViewC14setConstraintsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -13250,7 +12713,6 @@
             "mangledName": "$s9UptickSDK9OfferViewC13setPropertiesyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -13275,7 +12737,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -13287,7 +12748,6 @@
         "mangledName": "$s9UptickSDK9OfferViewC",
         "moduleName": "UptickSDK",
         "declAttributes": [
-          "Preconcurrency",
           "Custom",
           "Final",
           "RawDocComment",
@@ -13301,20 +12761,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -13417,7 +12863,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -13522,10 +12967,9 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Preconcurrency",
+              "HasStorage",
               "Custom",
-              "Final",
-              "HasStorage"
+              "Final"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true
@@ -13557,7 +13001,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -13598,7 +13041,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -13620,7 +13062,6 @@
             "mangledName": "$s9UptickSDK10FooterViewC11setSubviewsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -13643,7 +13084,6 @@
             "mangledName": "$s9UptickSDK10FooterViewC14setConstraintsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -13666,7 +13106,6 @@
             "mangledName": "$s9UptickSDK10FooterViewC13setPropertiesyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -13691,7 +13130,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -13703,7 +13141,6 @@
         "mangledName": "$s9UptickSDK10FooterViewC",
         "moduleName": "UptickSDK",
         "declAttributes": [
-          "Preconcurrency",
           "Custom",
           "Final",
           "RawDocComment",
@@ -13717,20 +13154,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -13833,7 +13256,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -13938,10 +13360,9 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Preconcurrency",
+              "HasStorage",
               "Custom",
-              "Final",
-              "HasStorage"
+              "Final"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true
@@ -13973,7 +13394,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -14014,7 +13434,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -14036,7 +13455,6 @@
             "mangledName": "$s9UptickSDK14DisclaimerViewC11setSubviewsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -14059,7 +13477,6 @@
             "mangledName": "$s9UptickSDK14DisclaimerViewC14setConstraintsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -14082,7 +13499,6 @@
             "mangledName": "$s9UptickSDK14DisclaimerViewC13setPropertiesyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -14107,7 +13523,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -14119,7 +13534,6 @@
         "mangledName": "$s9UptickSDK14DisclaimerViewC",
         "moduleName": "UptickSDK",
         "declAttributes": [
-          "Preconcurrency",
           "Custom",
           "Final",
           "RawDocComment",
@@ -14133,20 +13547,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -16437,20 +15837,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -17843,20 +17229,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -18024,23 +17396,7 @@
         "usr": "s:9UptickSDK14NetworkManagerC",
         "mangledName": "$s9UptickSDK14NetworkManagerC",
         "moduleName": "UptickSDK",
-        "isOpen": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
+        "isOpen": true
       },
       {
         "kind": "Import",
@@ -18072,7 +17428,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom",
               "Lazy"
             ],
@@ -18177,10 +17532,9 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Preconcurrency",
+              "HasStorage",
               "Custom",
-              "Final",
-              "HasStorage"
+              "Final"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true
@@ -18212,7 +17566,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -18253,7 +17606,6 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
-              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -18275,7 +17627,6 @@
             "mangledName": "$s9UptickSDK10HeaderViewC11setSubviewsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -18298,7 +17649,6 @@
             "mangledName": "$s9UptickSDK10HeaderViewC14setConstraintsyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -18321,7 +17671,6 @@
             "mangledName": "$s9UptickSDK10HeaderViewC13setPropertiesyyF",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Final"
             ],
@@ -18346,7 +17695,6 @@
             "moduleName": "UptickSDK",
             "declAttributes": [
               "Final",
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -18358,7 +17706,6 @@
         "mangledName": "$s9UptickSDK10HeaderViewC",
         "moduleName": "UptickSDK",
         "declAttributes": [
-          "Preconcurrency",
           "Custom",
           "Final",
           "RawDocComment",
@@ -18372,20 +17719,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -18742,20 +18075,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -18796,13 +18115,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -18931,20 +18243,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -18985,13 +18283,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -19334,20 +18625,6 @@
         "mangledName": "$s9UptickSDK10HTTPMethodV",
         "moduleName": "UptickSDK",
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "RawRepresentable",
@@ -20671,31 +19948,10 @@
             "conformances": [
               {
                 "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "BitwiseCopyable",
-                "printedName": "BitwiseCopyable",
-                "usr": "s:s15BitwiseCopyableP",
-                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           }
@@ -20708,31 +19964,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -20765,7 +20000,6 @@
             "mangledName": "$sSo6UIViewC9UptickSDKE15backgroundColorABSo7UIColorC_tcfc",
             "moduleName": "UptickSDK",
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "Convenience"
             ],
@@ -20804,7 +20038,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "DiscardableResult"
             ],
@@ -20899,7 +20132,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "DiscardableResult"
             ],
@@ -20931,7 +20163,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "DiscardableResult"
             ],
@@ -20963,7 +20194,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "DiscardableResult"
             ],
@@ -20994,7 +20224,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -21023,7 +20252,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -21052,7 +20280,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -21075,7 +20302,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -21098,7 +20324,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -21128,7 +20353,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "DiscardableResult"
             ],
@@ -21159,7 +20383,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom",
               "DiscardableResult"
             ],
@@ -21197,7 +20420,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -21234,7 +20456,6 @@
             "moduleName": "UptickSDK",
             "isOpen": true,
             "declAttributes": [
-              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -21248,7 +20469,6 @@
         "intro_iOS": "2.0",
         "objc_name": "UIView",
         "declAttributes": [
-          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -21263,20 +20483,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -21542,20 +20748,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -21730,13 +20922,6 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -22090,6 +21275,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/ilyasbekisabekov\/Desktop\/UptickSDK\/UptickSDK\/UptickService.swift",
+      "kind": "StringLiteral",
+      "offset": 109,
+      "length": 13,
+      "value": "\"UptickSDK.UptickService\""
+    },
+    {
       "filePath": "\/Users\/ilyasbekisabekov\/Desktop\/UptickSDK\/UptickSDK\/Resource\/UIView+Layout.swift",
       "kind": "IntegerLiteral",
       "offset": 620,
@@ -22256,6 +21448,83 @@
       "offset": 169,
       "length": 3,
       "value": "422"
+    },
+    {
+      "filePath": "\/Users\/ilyasbekisabekov\/Desktop\/UptickSDK\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 60,
+      "length": 3,
+      "value": "201"
+    },
+    {
+      "filePath": "\/Users\/ilyasbekisabekov\/Desktop\/UptickSDK\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 85,
+      "length": 3,
+      "value": "202"
+    },
+    {
+      "filePath": "\/Users\/ilyasbekisabekov\/Desktop\/UptickSDK\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 110,
+      "length": 3,
+      "value": "403"
+    },
+    {
+      "filePath": "\/Users\/ilyasbekisabekov\/Desktop\/UptickSDK\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 134,
+      "length": 3,
+      "value": "404"
+    },
+    {
+      "filePath": "\/Users\/ilyasbekisabekov\/Desktop\/UptickSDK\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 169,
+      "length": 3,
+      "value": "422"
+    },
+    {
+      "filePath": "\/Users\/ilyasbekisabekov\/Desktop\/UptickSDK\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 60,
+      "length": 3,
+      "value": "201"
+    },
+    {
+      "filePath": "\/Users\/ilyasbekisabekov\/Desktop\/UptickSDK\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 85,
+      "length": 3,
+      "value": "202"
+    },
+    {
+      "filePath": "\/Users\/ilyasbekisabekov\/Desktop\/UptickSDK\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 110,
+      "length": 3,
+      "value": "403"
+    },
+    {
+      "filePath": "\/Users\/ilyasbekisabekov\/Desktop\/UptickSDK\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 134,
+      "length": 3,
+      "value": "404"
+    },
+    {
+      "filePath": "\/Users\/ilyasbekisabekov\/Desktop\/UptickSDK\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 169,
+      "length": 3,
+      "value": "422"
+    },
+    {
+      "filePath": "\/Users\/ilyasbekisabekov\/Desktop\/UptickSDK\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 11,
+      "value": "\"HTTPError\""
     },
     {
       "filePath": "\/Users\/ilyasbekisabekov\/Desktop\/UptickSDK\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
