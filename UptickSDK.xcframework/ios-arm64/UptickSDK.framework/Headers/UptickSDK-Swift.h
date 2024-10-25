@@ -334,7 +334,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UptickManage
 ///
 /// \param placement Query item for all requests
 ///
-- (void)activateAdIn:(UptickAdView * _Nonnull)view withID:(NSString * _Nonnull)withID placement:(NSString * _Nullable)placement;
+- (void)activateAdIn:(UptickAdView * _Nonnull)view withID:(NSString * _Nonnull)withID placement:(NSString * _Nullable)placement firstName:(NSString * _Nullable)firstName countryCode:(NSString * _Nullable)countryCode totalPrice:(NSString * _Nullable)totalPrice shippingPrice:(NSString * _Nullable)shippingPrice;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

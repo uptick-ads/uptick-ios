@@ -16,7 +16,7 @@ import _SwiftConcurrencyShims
   @objc final public var backgroundColor: UIKit.UIColor
   @objc final public var primaryColor: UIKit.UIColor
   @objc final public var secondaryColor: UIKit.UIColor
-  @_Concurrency.MainActor @objc final public func activateAd(in view: UptickSDK.UptickAdView, withID: Swift.String, placement: Swift.String?)
+  @_Concurrency.MainActor @objc final public func activateAd(in view: UptickSDK.UptickAdView, withID: Swift.String, placement: Swift.String? = nil, firstName: Swift.String? = nil, countryCode: Swift.String? = nil, totalPrice: Swift.String? = nil, shippingPrice: Swift.String? = nil)
   @objc override dynamic public init()
   @objc deinit
 }

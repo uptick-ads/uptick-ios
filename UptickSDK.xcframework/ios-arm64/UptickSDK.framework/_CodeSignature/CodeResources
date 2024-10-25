@@ -6,39 +6,39 @@
 	<dict>
 		<key>Headers/UptickSDK-Swift.h</key>
 		<data>
-		2EJnibZhlqzB2K+gKw3i6klD0bw=
+		XZqwZWHlI2eNui2vlp9UEAi+nqU=
 		</data>
 		<key>Headers/UptickSDK.h</key>
 		<data>
-		AVw3jQ5gn+3899dafCWvGhFwU+8=
+		atVyNSY32dV0wWreJVc8Fcg7OHM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rHvdaGFFGjV6Fg1WcJr60aYaa18=
+		rV3SNlZiwdewD9OcQC1oTiFL4KU=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		3jtrno6oHsZZBkfMbmGg41zk02o=
+		vYpEiJgDr8i1o7CjlHVcfbKlH8s=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		9eOP/cQOX6GNYyV9G/TJUqx3PuQ=
+		eSz7WNj3HF4QEA9xdeDXgvnQwls=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		WxthrkoHq8kxIjdmSuh8LJrbtF8=
+		Sw+AShH6Pn+BKMqdkz4YdZG4qPc=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		sN8eYtF7wA8eRRfR9agU3rGEqxs=
+		JgRCoFIBfz5tqym3RnBQpKfEaSY=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		WxthrkoHq8kxIjdmSuh8LJrbtF8=
+		Sw+AShH6Pn+BKMqdkz4YdZG4qPc=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		YN6jr2t4reVvLJ5gygAzD1tXUjc=
+		8mpp6MCKcXhhunuXOeOieq875/s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,56 +51,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uUTZDJ71mrqEaVSNSx5bvfpQs5HrZKDwThmBE8ZA4Jk=
+			bl5N43kb5LxGnLpNBvvQh4/wEkcwp8a4aTdEKwtqBoM=
 			</data>
 		</dict>
 		<key>Headers/UptickSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			le1q5gniVLB053UT/S9aK485OgPczujGMzlZlfjiq7M=
+			741WKEtEM7yU7Tcn6B8rFuyZEwvHjWYL/KYu433WzAQ=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bh/UwesFWMWG144ZpyrfWDVWGF7pTTlTuiuPJtpjV3w=
+			ObNTYuBwjFO3nOLyo81hniPoqcizKh3VKxGJn06QGtg=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SxE6ZgGfGYKDN3LKtFSTcK7qIOqYR7EHr2XS0Q7/6Xw=
+			fddOi7fmntL+ZJonTHlpoiet8fi8RQSRO5xIU+W0lD4=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0S45N9mQWKtheBVXPr+7MF47pKtCxEcWvXDZ5S36rKg=
+			rkZAx6UG/OJx1TXr6KM7PtgRYXiInegNmy1IGQXzgcA=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wkfv6FtBygp4vCTyDTYXLMalhLaUFSi4V+rdxYrcdIo=
+			HnYBeTgVM1r0MRn/f4IDfxjfen8FwIlYgOTwPBJpNos=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0S45N9mQWKtheBVXPr+7MF47pKtCxEcWvXDZ5S36rKg=
+			rkZAx6UG/OJx1TXr6KM7PtgRYXiInegNmy1IGQXzgcA=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tcfP6KTqvjOMVGSbb+mz+mw3atYPWxF2/Pf4wCOu8G0=
+			HIQdo0ey0Z5vviTZLYX3Pqb73Hz0l2qwzqvSTP/pjDI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
