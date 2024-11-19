@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/UptickSDK-Swift.h</key>
 		<data>
-		krulIqebXn3uqSz10O5l55WB6BY=
+		M42OIIKapQm7i30tm23GWl4AjyY=
 		</data>
 		<key>Headers/UptickSDK.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		A+ONc1RON82sb744MJvnQeqpshU=
+		fLC+PTSX8DUnFjVYsSEkKbyMTXE=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		01RHnmuPmL/IBV5BT44XPJxAfxI=
+		idCLpw8GHkW5odhUfX/PYY0JZis=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		z0H/6iwPJmwWnb8LTrgXuKTVm3w=
+		tZqWrlY6aJfWR0aXP3QzoWz9qBQ=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Ok1r99IUot+/Nez7YcVH24GCB3w=
+		u3scRPi67lU7G0TEPwE/LJr1pKA=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		wal6Yxcf18YFxlNurx/LpQGqAas=
+		sXjfINOFuHrcH8teUVH3FhnARfQ=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Ok1r99IUot+/Nez7YcVH24GCB3w=
+		u3scRPi67lU7G0TEPwE/LJr1pKA=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		v3iZFflXEd2qsFDpbOZLud7AuJA=
+		2S9rYPr5me1ssmH1uspf2803Vwk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c8+n5t23HMOY+2VeENrIHcYpSMCjFDIsAt7YUm4/tgk=
+			WaLkqmDAkQz3bBHXVDebvnBo0z0ETgEtsSZBoq3DC/o=
 			</data>
 		</dict>
 		<key>Headers/UptickSDK.h</key>
@@ -65,42 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zrzjlwyTQ2IwoiVN29rjjeIMZ4CgcEaicxRgIjTiywg=
+			DYvs9ItPbMSd287ZZzKSWAfG1OcqHKjLEP8hewny5Cw=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zHGKfz5VQPsE7PYTm6K9o2TVTVzElgPOOEfdd4Tzw4g=
+			Gg2w7cJ/anR4C3mUH6WeYqWjj338aFvYN5J7+gF2l80=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yif8eDgsvIW+qUPMUyYp+PdnP9S7GsNtPXLMnysVxPo=
+			vyG+TSP9c8lpZxTFdgHEBZ6N9EhUOPUkoe8gJ4y5XiU=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VAvD9acx+Xz+FmxN0MjYYyvRVhirZNp4wRbWf+SU+U8=
+			onrW0n1UwWMXO1z88ZrVKGmpGXeed6BX40qsCDSjEbM=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yif8eDgsvIW+qUPMUyYp+PdnP9S7GsNtPXLMnysVxPo=
+			vyG+TSP9c8lpZxTFdgHEBZ6N9EhUOPUkoe8gJ4y5XiU=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EUvpROc9kzoSvr8DZa+IU4uRGWN1q/whGFcU630G0rk=
+			vxsiUqzh74WVo46a0W+evLZqQ2Fcv/IufIvc7lkVafo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
