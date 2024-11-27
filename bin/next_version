@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Get the latest tag from git
+latest_tag=$(git describe --tags `git rev-list --tags --max-count=1`)
+
+# Extract the version number from the tag
+version=${latest_tag#v}
+
+# Split the version number into its components
+IFS='.' read -r -a version_parts <<< "$version"
+
+# Increment the last part of the version number
+((version_parts[2]++))
+
+# Construct the new version number
+new_version="v${version_parts[0]}.${version_parts[1]}.${version_parts[2]}"
+
+# Output the new version number
+echo $new_version
