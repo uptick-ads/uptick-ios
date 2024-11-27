@@ -1,0 +1,11 @@
+framework module UptickSDK {
+  umbrella header "UptickSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module UptickSDK.Swift {
+  header "UptickSDK-Swift.h"
+  requires objc
+}
