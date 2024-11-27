@@ -13,6 +13,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
+    - name: Zip up the XCFramework
+      run: zip -r UptickSDK.xcframework.zip UptickSDK.xcframework
+
     - name: Create Release
       id: create_release
       uses: softprops/action-gh-release@v2
@@ -25,5 +28,6 @@ jobs:
         draft: false
         prerelease: false
         make_latest: true
-        files: 'UptickSDK.xcframework'
+        files: 
+          - UptickSDK.xcframework.zip
         fail_on_unmatched_files: false
