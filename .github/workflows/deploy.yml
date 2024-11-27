@@ -1,0 +1,29 @@
+name: Create Release for UptickSDK
+
+on:
+  push:
+    tags:
+      - 'v*' # Trigger on version tags
+
+jobs:
+  create_release:
+    runs-on: warp-ubuntu-2204-x64-4x
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Create Release
+      id: create_release
+      uses: softprops/action-gh-release@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.PPX_DIGITAL_ACTIONS_PAT }}
+      with:
+        tag_name: ${{  github.ref_name }}"
+        name: Release ${{  github.ref_name }}"
+        body: ${{ github.event.head_commit.message }}
+        draft: false
+        prerelease: false
+        make_latest: true
+        files: 'UptickSDK.xcframework'
+        fail_on_unmatched_files: false
