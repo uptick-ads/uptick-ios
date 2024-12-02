@@ -1,5 +1,3 @@
----
-
 # Uptick iOS SDK Integration
 
 This repository contains the **Uptick iOS SDK** and instructions for integrating it into your iOS app. You can integrate the SDK via **Swift Package Manager (SPM)** or **manually** by adding the provided **XCFramework**.
@@ -17,7 +15,7 @@ You can integrate the Uptick SDK using Swift Package Manager. Follow these steps
 5. Click the **+** button at the bottom of the **Package Dependencies** section.
 6. In the search bar, paste the Uptick SDK GitHub repository URL:
    ```
-   https://github.com/axeldeploy/uptick-ios
+   https://github.com/uptick-ads/uptick-ios
    ```
 7. Select the **main** branch and press **Add Package**.
 8. Assign the package to your app target.
@@ -26,7 +24,7 @@ You can integrate the Uptick SDK using Swift Package Manager. Follow these steps
 
 If you prefer manual integration, follow these steps:
 
-1. **Download the XCFramework**: Download `UptickSDK.xcframework` from the [Releases](https://github.com/axeldeploy/uptick-ios/releases) page or other official sources.
+1. **Download the XCFramework**: Download `UptickSDK.xcframework` from the [Releases](https://github.com/uptick-ads/uptick-ios/releases) page.
 2. **Add the Framework to Xcode**:
    - In Xcode, select your project in the project navigator.
    - Select your app target under **TARGETS**.
@@ -46,29 +44,40 @@ The `UptickManager` class is the main interface for managing ads within the Upti
 ### Class Definition
 
 ```swift
-@objc final public class UptickManager: NSObject {
+@objc public final class UptickManager: NSObject {
 
-    @objc public static let shared: UptickManager
+    // Returns the default singleton instance.
+    @objc public static let shared = UptickManager()
 
-    @objc final public var errorMessage: ((_ errorText: String) -> Void)?
+    // Public closure to handle error messages
+    @objc public var errorMessage: ((_ errorText: String) -> Void)?
 
-    @objc final public var backgroundColor: UIColor
+    // Public closure triggered when the ad view disappears, allowing external handling of view dismissal events.
+    @objc public var onDisappearUptickAdView: (() -> Void)?
 
-    @objc final public var primaryColor: UIColor
+    // Background color for the ad interface.
+    @objc public var backgroundColor: UIColor = Colors.white
 
-    @objc final public var secondaryColor: UIColor
+    // Primary color for branding elements in the ad interface.
+    @objc public var primaryColor: UIColor = Colors.primary
+
+    // Secondary color for additional UI elements in the ad interface.
+    @objc public var secondaryColor: UIColor = Colors.secondary
 
     /**
-     Public method to activate an ad.
-     
+     Public method to activate an ad in the provided `UptickAdView`.
+
+     This method activates an ad within the specified view using a given integration ID. Optionally, additional parameters
+     can be provided for ad customization. The method sets the current object as the delegate for `uptickService` to receive
+     relevant ad events.
+
      - Parameters:
         - view: The `UptickAdView` where the ad will be displayed.
-        - withID: The integration ID for the ad.
-        - placement: Query item for all requests
+        - withID: The unique integration ID for identifying the ad.
+        - parameters: Optional additional parameters for the ad request as a dictionary of `[String: Any]`.
      */
-    @MainActor @objc final public func activateAd(in view: UptickAdView, withID: String, placement: String?)
-
-    override dynamic public init()
+    @MainActor
+    @objc public func activateAd(in view: UptickAdView, withID: String, parameters: [String: Any]? = nil) {}
 }
 ```
 
@@ -82,7 +91,7 @@ The `UptickManager` class is the main interface for managing ads within the Upti
 
 ### Methods
 
-- **activateAd(in:withID:placement:)**: Activates an ad in the provided `UptickAdView` using an integration ID and an optional placement string for request queries.
+- **activateAd(in:withID:parameters:)**: Activates an ad in the provided `UptickAdView` using an integration ID and an optional placement string for request queries.
 
 ### Example Usage
 
@@ -99,14 +108,14 @@ class ViewController: UIViewController {
     lazy var showButton = makeButton()
     lazy var defaultButton = makeButton()
     lazy var uptickAdView = UptickAdView()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setSubviews()
         setConstraints()
         setProperties()
     }
-    
+
     func setSubviews() {
         view.addSubview(stackView)
         stackView.addArrangedSubview(integrationIdLabel)
@@ -117,7 +126,7 @@ class ViewController: UIViewController {
         stackView.addArrangedSubview(defaultButton)
         view.addSubview(uptickAdView)
     }
-    
+
     func setConstraints() {
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16).isActive = true
@@ -125,7 +134,7 @@ class ViewController: UIViewController {
         stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16).isActive = true
         stackView.heightAnchor.constraint(equalToConstant: 400).isActive = true
     }
-    
+
     func setProperties() {
         stackView.distribution = .fillEqually
         stackView.spacing = 16
@@ -137,11 +146,15 @@ class ViewController: UIViewController {
         showButton.addTarget(self, action: #selector(onShowButton), for: .touchUpInside)
         defaultButton.setTitle("Use Default Values", for: .normal)
         defaultButton.addTarget(self, action: #selector(onDefaultButton), for: .touchUpInside)
-        integrationIdTextField.text = "0bf6f068-6bf5-49f1-a6bc-822eee7d4db3"
+        integrationIdTextField.text = "AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE"
         placementTextField.text = "order_confirmation"
+
+        /*
         UptickManager.shared.backgroundColor = .white
         UptickManager.shared.primaryColor = .systemRed
         UptickManager.shared.secondaryColor = .lightGray
+        */
+
         UptickManager.shared.errorMessage = { errorMessage in
             print(errorMessage)
         }
@@ -152,18 +165,26 @@ class ViewController: UIViewController {
 extension ViewController {
     func onShowButton() {
         if let integrationId = integrationIdTextField.text, let placement = placementTextField.text {
-            UptickManager.shared.activateAd(in: uptickAdView, withID: integrationId, placement: placement)
+            UptickManager.shared.activateAd(
+                in: uptickAdView,
+                withID: integrationId,
+                parameters: ["placement": placement]
+            )
         }
         integrationIdTextField.resignFirstResponder()
         placementTextField.resignFirstResponder()
     }
-    
+
     func onDefaultButton() {
-        let id = "2a1c3b6e-e148-45e5-bd43-ea0b1c11dad0"
+        let id = "AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE"
         let placement = "order_confirmation"
         integrationIdTextField.text = id
         placementTextField.text = placement
-        UptickManager.shared.activateAd(in: uptickAdView, withID: "2a1c3b6e-e148-45e5-bd43-ea0b1c11dad0", placement: "order_confirmation")
+        UptickManager.shared.activateAd(
+            in: uptickAdView,
+            withID: "AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE",
+            placement: "order_confirmation"
+        )
         integrationIdTextField.resignFirstResponder()
         placementTextField.resignFirstResponder()
     }
@@ -188,7 +209,7 @@ extension ViewController {
         label.font = .systemFont(ofSize: 16)
         return label
     }
-    
+
     func makeTextField(tag: Int) -> UITextField {
         let textField = UITextField()
         textField.borderStyle = .roundedRect
@@ -198,11 +219,11 @@ extension ViewController {
         textField.tag = tag
         return textField
     }
-    
+
     func makeImageView() -> UIImageView {
         return UIImageView()
     }
-    
+
     func makeButton() -> UIButton {
         let button = UIButton(type: .system)
         button.layer.borderWidth = 1
@@ -216,6 +237,6 @@ extension ViewController {
 
 ## License
 
-This project is licensed under the [Apache 2.0 License](LICENSE).
+This project is licensed under the [UptickSDK License Agreement](LICENSE).
 
 ---

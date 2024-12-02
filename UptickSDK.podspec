@@ -39,8 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "UPTICK", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Uptick" => "deploy@axelhub.com" }
+  spec.author             = { "Uptick" => "nathan@uptick.com" }
   # Or just: spec.author    = ""
   # spec.authors            = { "" => "" }
   # spec.social_media_url   = "https://twitter.com/"
@@ -81,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/axeldeploy/uptick-ios.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://github.com/uptick-ads/uptick-ios.git", :tag => "v#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
