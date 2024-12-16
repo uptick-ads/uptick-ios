@@ -14,6 +14,7 @@ import _SwiftConcurrencyShims
 @objc final public class UptickManager : ObjectiveC.NSObject {
   @objc public static let shared: UptickSDK.UptickManager
   @objc final public var errorMessage: ((_ errorText: Swift.String) -> Swift.Void)?
+  @objc final public var renderType: ((_ renderType: Swift.String) -> Swift.Void)?
   @objc final public var onDisappearUptickAdView: (() -> Swift.Void)?
   @objc final public var backgroundColor: UIKit.UIColor
   @objc final public var primaryColor: UIKit.UIColor

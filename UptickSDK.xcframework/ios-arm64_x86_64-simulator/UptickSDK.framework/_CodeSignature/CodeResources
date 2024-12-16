@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/UptickSDK-Swift.h</key>
 		<data>
-		ghFkOMv7u8nLT5sdAkvL8Eyzc5c=
+		xbNkMpeZsJof5XmEVhzOehmQfIM=
 		</data>
 		<key>Headers/UptickSDK.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BN5tRl8o/0A22/8NEVpIGQqom1g=
+		xb6Kj/JshpCJ7VbHOJG4yv2Dz3Y=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7wASyEFKJ26ctpSMaprgk7UV4mM=
+		1GTukcNBKoSvnXhhIXyZOwzHMQ0=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ny60srtQeiSCM/BkZ8diuUuIr9Q=
+		tS1wAp9nGa8W/a7g24Wtam3eN3Y=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ny60srtQeiSCM/BkZ8diuUuIr9Q=
+		tS1wAp9nGa8W/a7g24Wtam3eN3Y=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vfkncY2jdD4q56Ye/qhfmuQ+zBc=
+		Dl823Fh6wpwtzWySKi32OUuKv7c=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7wASyEFKJ26ctpSMaprgk7UV4mM=
+		1GTukcNBKoSvnXhhIXyZOwzHMQ0=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vAxG7OQiyL7o80TDX17kFxGVLs4=
+		udrCM5wlKaweUGcs1efNtpSJNP0=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vAxG7OQiyL7o80TDX17kFxGVLs4=
+		udrCM5wlKaweUGcs1efNtpSJNP0=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QT1ZOVdhRTAJ8bbtP8DgAfBFYCQ=
+		s395EewbjfDsM2da76y7f4Zkz4M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KUj2AyFxjBbpiw9PMMlsyToWfBbwwhzK0MkQN5wTyGk=
+			ixevR7d7eGtwI4SpS41uSZ7RfP0JV0njSje24DJPuFY=
 			</data>
 		</dict>
 		<key>Headers/UptickSDK.h</key>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jy1YcaWYaYbXNTaAG/t/QqRs/8R3NmrArnHz6UbKG8Y=
+			W3Hhw4MPQn9h7Jc9HeZUmRQCSrTlYRl2AUxm/jHPQLs=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pG/YcxLd2HYVqgTywe4+uVYleV1h3yeYk1Nl9YPYywA=
+			TczdJFxEJ4rvUBB0YD+urhZDUk4pQFPyWOtNUUkWNck=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pG/YcxLd2HYVqgTywe4+uVYleV1h3yeYk1Nl9YPYywA=
+			TczdJFxEJ4rvUBB0YD+urhZDUk4pQFPyWOtNUUkWNck=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bnciCNqBGbb2E3xyOGoWlBLHKskvAWQQViFMZKbDx+M=
+			EGXc/hxsTEfO2ECSbYiXdqvP3h2y18F47edtvZu6ntg=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jy1YcaWYaYbXNTaAG/t/QqRs/8R3NmrArnHz6UbKG8Y=
+			W3Hhw4MPQn9h7Jc9HeZUmRQCSrTlYRl2AUxm/jHPQLs=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LVRL5lb5oUAbgCCZy98QaBOG+69QRdaL7m3F9iMtQj4=
+			8/+DDfpRm0qVeXBJbHRnUjoM1E8xyleCJgJD1zqGMy4=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LVRL5lb5oUAbgCCZy98QaBOG+69QRdaL7m3F9iMtQj4=
+			8/+DDfpRm0qVeXBJbHRnUjoM1E8xyleCJgJD1zqGMy4=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZiSdkFQZUBcL44XY7CpVywRdQxAIrEJdrCa5IVyjIOU=
+			9FhtpY7akyS9Yvco4k9tXfagBsbZNFKzFfr7tgxr9eI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
