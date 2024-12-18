@@ -34,6 +34,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UptickSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -436,8 +446,8 @@
           },
           {
             "kind": "Var",
-            "name": "onDisappearUptickAdView",
-            "printedName": "onDisappearUptickAdView",
+            "name": "onDisappearOffer",
+            "printedName": "onDisappearOffer",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -466,8 +476,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@UptickSDK@objc(cs)UptickManager(py)onDisappearUptickAdView",
-            "mangledName": "$s9UptickSDK0A7ManagerC011onDisappearA6AdViewyycSgvp",
+            "usr": "c:@M@UptickSDK@objc(cs)UptickManager(py)onDisappearOffer",
+            "mangledName": "$s9UptickSDK0A7ManagerC16onDisappearOfferyycSgvp",
             "moduleName": "UptickSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -511,8 +521,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@UptickSDK@objc(cs)UptickManager(im)onDisappearUptickAdView",
-                "mangledName": "$s9UptickSDK0A7ManagerC011onDisappearA6AdViewyycSgvg",
+                "usr": "c:@M@UptickSDK@objc(cs)UptickManager(im)onDisappearOffer",
+                "mangledName": "$s9UptickSDK0A7ManagerC16onDisappearOfferyycSgvg",
                 "moduleName": "UptickSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -558,8 +568,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@UptickSDK@objc(cs)UptickManager(im)setOnDisappearUptickAdView:",
-                "mangledName": "$s9UptickSDK0A7ManagerC011onDisappearA6AdViewyycSgvs",
+                "usr": "c:@M@UptickSDK@objc(cs)UptickManager(im)setOnDisappearOffer:",
+                "mangledName": "$s9UptickSDK0A7ManagerC16onDisappearOfferyycSgvs",
                 "moduleName": "UptickSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -580,8 +590,169 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:9UptickSDK0A7ManagerC011onDisappearA6AdViewyycSgvM",
-                "mangledName": "$s9UptickSDK0A7ManagerC011onDisappearA6AdViewyycSgvM",
+                "usr": "s:9UptickSDK0A7ManagerC16onDisappearOfferyycSgvM",
+                "mangledName": "$s9UptickSDK0A7ManagerC16onDisappearOfferyycSgvM",
+                "moduleName": "UptickSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onReceivedOffer",
+            "printedName": "onReceivedOffer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UptickSDK.UptickData.Offer) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UptickSDK.UptickData.Offer) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Offer",
+                        "printedName": "UptickSDK.UptickData.Offer",
+                        "usr": "s:9UptickSDK0A4DataO5OfferC"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UptickSDK@objc(cs)UptickManager(py)onReceivedOffer",
+            "mangledName": "$s9UptickSDK0A7ManagerC15onReceivedOfferyAA0A4DataO0F0CcSgvp",
+            "moduleName": "UptickSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UptickSDK.UptickData.Offer) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UptickSDK.UptickData.Offer) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Offer",
+                            "printedName": "UptickSDK.UptickData.Offer",
+                            "usr": "s:9UptickSDK0A4DataO5OfferC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UptickSDK@objc(cs)UptickManager(im)onReceivedOffer",
+                "mangledName": "$s9UptickSDK0A7ManagerC15onReceivedOfferyAA0A4DataO0F0CcSgvg",
+                "moduleName": "UptickSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UptickSDK.UptickData.Offer) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UptickSDK.UptickData.Offer) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Offer",
+                            "printedName": "UptickSDK.UptickData.Offer",
+                            "usr": "s:9UptickSDK0A4DataO5OfferC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UptickSDK@objc(cs)UptickManager(im)setOnReceivedOffer:",
+                "mangledName": "$s9UptickSDK0A7ManagerC15onReceivedOfferyAA0A4DataO0F0CcSgvs",
+                "moduleName": "UptickSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UptickSDK0A7ManagerC15onReceivedOfferyAA0A4DataO0F0CcSgvM",
+                "mangledName": "$s9UptickSDK0A7ManagerC15onReceivedOfferyAA0A4DataO0F0CcSgvM",
                 "moduleName": "UptickSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1087,16 +1258,6 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "UptickSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
         "moduleName": "UptickSDK"
       },
       {
@@ -1271,12 +1432,43 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "UptickSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "UptickSDK"
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "UptickSDK"
       },
@@ -1306,21 +1498,452 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "UptickSDK"
+        "moduleName": "UptickSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UptickSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UptickSDK"
+        "kind": "TypeDecl",
+        "name": "UptickData",
+        "printedName": "UptickData",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Offer",
+            "printedName": "Offer",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "id",
+                "printedName": "id",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9UptickSDK0A4DataO5OfferC2idSSvp",
+                "mangledName": "$s9UptickSDK0A4DataO5OfferC2idSSvp",
+                "moduleName": "UptickSDK",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9UptickSDK0A4DataO5OfferC2idSSvg",
+                    "mangledName": "$s9UptickSDK0A4DataO5OfferC2idSSvg",
+                    "moduleName": "UptickSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "position",
+                "printedName": "position",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9UptickSDK0A4DataO5OfferC8positionSiSgvp",
+                "mangledName": "$s9UptickSDK0A4DataO5OfferC8positionSiSgvp",
+                "moduleName": "UptickSDK",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9UptickSDK0A4DataO5OfferC8positionSiSgvg",
+                    "mangledName": "$s9UptickSDK0A4DataO5OfferC8positionSiSgvg",
+                    "moduleName": "UptickSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "total",
+                "printedName": "total",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9UptickSDK0A4DataO5OfferC5totalSiSgvp",
+                "mangledName": "$s9UptickSDK0A4DataO5OfferC5totalSiSgvp",
+                "moduleName": "UptickSDK",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9UptickSDK0A4DataO5OfferC5totalSiSgvg",
+                    "mangledName": "$s9UptickSDK0A4DataO5OfferC5totalSiSgvg",
+                    "moduleName": "UptickSDK",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "frame",
+                "printedName": "frame",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9UptickSDK0A4DataO5OfferC5frameSo6CGRectVvp",
+                "mangledName": "$s9UptickSDK0A4DataO5OfferC5frameSo6CGRectVvp",
+                "moduleName": "UptickSDK",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGRect",
+                        "printedName": "CoreFoundation.CGRect",
+                        "usr": "c:@S@CGRect"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9UptickSDK0A4DataO5OfferC5frameSo6CGRectVvg",
+                    "mangledName": "$s9UptickSDK0A4DataO5OfferC5frameSo6CGRectVvg",
+                    "moduleName": "UptickSDK",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "rejectButton",
+                "printedName": "rejectButton",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9UptickSDK0A4DataO5OfferC12rejectButtonSo8UIButtonCvp",
+                "mangledName": "$s9UptickSDK0A4DataO5OfferC12rejectButtonSo8UIButtonCvp",
+                "moduleName": "UptickSDK",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIButton",
+                        "printedName": "UIKit.UIButton",
+                        "usr": "c:objc(cs)UIButton"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9UptickSDK0A4DataO5OfferC12rejectButtonSo8UIButtonCvg",
+                    "mangledName": "$s9UptickSDK0A4DataO5OfferC12rejectButtonSo8UIButtonCvg",
+                    "moduleName": "UptickSDK",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "isLast",
+                "printedName": "isLast",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:9UptickSDK0A4DataO5OfferC6isLastSbvp",
+                "mangledName": "$s9UptickSDK0A4DataO5OfferC6isLastSbvp",
+                "moduleName": "UptickSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:9UptickSDK0A4DataO5OfferC6isLastSbvg",
+                    "mangledName": "$s9UptickSDK0A4DataO5OfferC6isLastSbvg",
+                    "moduleName": "UptickSDK",
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Offer",
+                    "printedName": "UptickSDK.UptickData.Offer",
+                    "usr": "s:9UptickSDK0A4DataO5OfferC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:9UptickSDK0A4DataO5OfferCAEycfc",
+                "mangledName": "$s9UptickSDK0A4DataO5OfferCAEycfc",
+                "moduleName": "UptickSDK",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:9UptickSDK0A4DataO5OfferC",
+            "mangledName": "$s9UptickSDK0A4DataO5OfferC",
+            "moduleName": "UptickSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "hasMissingDesignatedInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9UptickSDK0A4DataO",
+        "mangledName": "$s9UptickSDK0A4DataO",
+        "moduleName": "UptickSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1617,23 +2240,30 @@
       "value": "1.0"
     },
     {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/ActionButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 318,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "StringLiteral",
-      "offset": 342,
+      "offset": 434,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "Array",
-      "offset": 642,
+      "offset": 734,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 735,
+      "offset": 827,
       "length": 5,
       "value": "false"
     },

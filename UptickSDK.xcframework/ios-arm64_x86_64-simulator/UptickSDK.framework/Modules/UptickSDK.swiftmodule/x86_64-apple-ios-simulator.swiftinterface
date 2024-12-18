@@ -15,7 +15,8 @@ import _SwiftConcurrencyShims
   @objc public static let shared: UptickSDK.UptickManager
   @objc final public var errorMessage: ((_ errorText: Swift.String) -> Swift.Void)?
   @objc final public var renderType: ((_ renderType: Swift.String) -> Swift.Void)?
-  @objc final public var onDisappearUptickAdView: (() -> Swift.Void)?
+  @objc final public var onDisappearOffer: (() -> Swift.Void)?
+  @objc final public var onReceivedOffer: ((_ offer: UptickSDK.UptickData.Offer) -> Swift.Void)?
   @objc final public var backgroundColor: UIKit.UIColor
   @objc final public var primaryColor: UIKit.UIColor
   @objc final public var secondaryColor: UIKit.UIColor
@@ -26,4 +27,21 @@ import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class UptickAdView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
   @objc deinit
+}
+public enum UptickData {
+  @objc @_hasMissingDesignatedInitializers public class Offer : ObjectiveC.NSObject {
+    final public let id: Swift.String
+    final public let position: Swift.Int?
+    final public let total: Swift.Int?
+    public var frame: CoreFoundation.CGRect {
+      get
+    }
+    public var rejectButton: UIKit.UIButton {
+      get
+    }
+    public var isLast: Swift.Bool {
+      get
+    }
+    @objc deinit
+  }
 }

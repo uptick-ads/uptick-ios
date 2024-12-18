@@ -319,6 +319,7 @@ SWIFT_CLASS("_TtC9UptickSDK12UptickAdView")
 
 
 @class NSString;
+@class Offer;
 @class UIColor;
 
 SWIFT_CLASS("_TtC9UptickSDK13UptickManager") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
@@ -327,7 +328,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UptickManage
 + (UptickManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, copy) void (^ _Nullable errorMessage)(NSString * _Nonnull);
 @property (nonatomic, copy) void (^ _Nullable renderType)(NSString * _Nonnull);
-@property (nonatomic, copy) void (^ _Nullable onDisappearUptickAdView)(void);
+@property (nonatomic, copy) void (^ _Nullable onDisappearOffer)(void);
+@property (nonatomic, copy) void (^ _Nullable onReceivedOffer)(Offer * _Nonnull);
 @property (nonatomic, strong) UIColor * _Nonnull backgroundColor;
 @property (nonatomic, strong) UIColor * _Nonnull primaryColor;
 @property (nonatomic, strong) UIColor * _Nonnull secondaryColor;
@@ -675,6 +677,7 @@ SWIFT_CLASS("_TtC9UptickSDK12UptickAdView")
 
 
 @class NSString;
+@class Offer;
 @class UIColor;
 
 SWIFT_CLASS("_TtC9UptickSDK13UptickManager") SWIFT_AVAILABILITY(ios_app_extension,unavailable)
@@ -683,7 +686,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UptickManage
 + (UptickManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, copy) void (^ _Nullable errorMessage)(NSString * _Nonnull);
 @property (nonatomic, copy) void (^ _Nullable renderType)(NSString * _Nonnull);
-@property (nonatomic, copy) void (^ _Nullable onDisappearUptickAdView)(void);
+@property (nonatomic, copy) void (^ _Nullable onDisappearOffer)(void);
+@property (nonatomic, copy) void (^ _Nullable onReceivedOffer)(Offer * _Nonnull);
 @property (nonatomic, strong) UIColor * _Nonnull backgroundColor;
 @property (nonatomic, strong) UIColor * _Nonnull primaryColor;
 @property (nonatomic, strong) UIColor * _Nonnull secondaryColor;
