@@ -2240,6 +2240,55 @@
       "value": "1.0"
     },
     {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 2,
+      "value": "96"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 590,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 602,
+      "length": 3,
+      "value": "146"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 606,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 617,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 621,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Colors.swift",
+      "kind": "FloatLiteral",
+      "offset": 633,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/ActionButton.swift",
       "kind": "BooleanLiteral",
       "offset": 318,
