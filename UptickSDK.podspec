@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UptickSDK"
-  spec.version = "v1.0.11"
+  spec.version = "v1.0.12"
   spec.summary      = "Uptick SDK for publishers integrating ad solutions in iOS apps."
 
   # This description is used to generate tags and improve search results.

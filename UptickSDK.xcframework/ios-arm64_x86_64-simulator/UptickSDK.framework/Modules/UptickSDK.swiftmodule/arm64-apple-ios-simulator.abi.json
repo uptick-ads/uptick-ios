@@ -765,6 +765,489 @@
           },
           {
             "kind": "Var",
+            "name": "onViewedOffer",
+            "printedName": "onViewedOffer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UptickSDK.UptickData.Offer) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UptickSDK.UptickData.Offer) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Offer",
+                        "printedName": "UptickSDK.UptickData.Offer",
+                        "usr": "s:9UptickSDK0A4DataO5OfferC"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UptickSDK@objc(cs)UptickManager(py)onViewedOffer",
+            "mangledName": "$s9UptickSDK0A7ManagerC13onViewedOfferyAA0A4DataO0F0CcSgvp",
+            "moduleName": "UptickSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UptickSDK.UptickData.Offer) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UptickSDK.UptickData.Offer) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Offer",
+                            "printedName": "UptickSDK.UptickData.Offer",
+                            "usr": "s:9UptickSDK0A4DataO5OfferC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UptickSDK@objc(cs)UptickManager(im)onViewedOffer",
+                "mangledName": "$s9UptickSDK0A7ManagerC13onViewedOfferyAA0A4DataO0F0CcSgvg",
+                "moduleName": "UptickSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UptickSDK.UptickData.Offer) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UptickSDK.UptickData.Offer) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Offer",
+                            "printedName": "UptickSDK.UptickData.Offer",
+                            "usr": "s:9UptickSDK0A4DataO5OfferC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UptickSDK@objc(cs)UptickManager(im)setOnViewedOffer:",
+                "mangledName": "$s9UptickSDK0A7ManagerC13onViewedOfferyAA0A4DataO0F0CcSgvs",
+                "moduleName": "UptickSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UptickSDK0A7ManagerC13onViewedOfferyAA0A4DataO0F0CcSgvM",
+                "mangledName": "$s9UptickSDK0A7ManagerC13onViewedOfferyAA0A4DataO0F0CcSgvM",
+                "moduleName": "UptickSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAcceptedOffer",
+            "printedName": "onAcceptedOffer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UptickSDK.UptickData.Offer) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UptickSDK.UptickData.Offer) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Offer",
+                        "printedName": "UptickSDK.UptickData.Offer",
+                        "usr": "s:9UptickSDK0A4DataO5OfferC"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UptickSDK@objc(cs)UptickManager(py)onAcceptedOffer",
+            "mangledName": "$s9UptickSDK0A7ManagerC15onAcceptedOfferyAA0A4DataO0F0CcSgvp",
+            "moduleName": "UptickSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UptickSDK.UptickData.Offer) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UptickSDK.UptickData.Offer) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Offer",
+                            "printedName": "UptickSDK.UptickData.Offer",
+                            "usr": "s:9UptickSDK0A4DataO5OfferC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UptickSDK@objc(cs)UptickManager(im)onAcceptedOffer",
+                "mangledName": "$s9UptickSDK0A7ManagerC15onAcceptedOfferyAA0A4DataO0F0CcSgvg",
+                "moduleName": "UptickSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UptickSDK.UptickData.Offer) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UptickSDK.UptickData.Offer) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Offer",
+                            "printedName": "UptickSDK.UptickData.Offer",
+                            "usr": "s:9UptickSDK0A4DataO5OfferC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UptickSDK@objc(cs)UptickManager(im)setOnAcceptedOffer:",
+                "mangledName": "$s9UptickSDK0A7ManagerC15onAcceptedOfferyAA0A4DataO0F0CcSgvs",
+                "moduleName": "UptickSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UptickSDK0A7ManagerC15onAcceptedOfferyAA0A4DataO0F0CcSgvM",
+                "mangledName": "$s9UptickSDK0A7ManagerC15onAcceptedOfferyAA0A4DataO0F0CcSgvM",
+                "moduleName": "UptickSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onRejectedOffer",
+            "printedName": "onRejectedOffer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UptickSDK.UptickData.Offer) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UptickSDK.UptickData.Offer) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Offer",
+                        "printedName": "UptickSDK.UptickData.Offer",
+                        "usr": "s:9UptickSDK0A4DataO5OfferC"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UptickSDK@objc(cs)UptickManager(py)onRejectedOffer",
+            "mangledName": "$s9UptickSDK0A7ManagerC15onRejectedOfferyAA0A4DataO0F0CcSgvp",
+            "moduleName": "UptickSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UptickSDK.UptickData.Offer) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UptickSDK.UptickData.Offer) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Offer",
+                            "printedName": "UptickSDK.UptickData.Offer",
+                            "usr": "s:9UptickSDK0A4DataO5OfferC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UptickSDK@objc(cs)UptickManager(im)onRejectedOffer",
+                "mangledName": "$s9UptickSDK0A7ManagerC15onRejectedOfferyAA0A4DataO0F0CcSgvg",
+                "moduleName": "UptickSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UptickSDK.UptickData.Offer) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UptickSDK.UptickData.Offer) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Offer",
+                            "printedName": "UptickSDK.UptickData.Offer",
+                            "usr": "s:9UptickSDK0A4DataO5OfferC"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UptickSDK@objc(cs)UptickManager(im)setOnRejectedOffer:",
+                "mangledName": "$s9UptickSDK0A7ManagerC15onRejectedOfferyAA0A4DataO0F0CcSgvs",
+                "moduleName": "UptickSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UptickSDK0A7ManagerC15onRejectedOfferyAA0A4DataO0F0CcSgvM",
+                "mangledName": "$s9UptickSDK0A7ManagerC15onRejectedOfferyAA0A4DataO0F0CcSgvM",
+                "moduleName": "UptickSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "backgroundColor",
             "printedName": "backgroundColor",
             "children": [
@@ -2298,21 +2781,21 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "StringLiteral",
-      "offset": 434,
+      "offset": 708,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "Array",
-      "offset": 734,
+      "offset": 1008,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 827,
+      "offset": 1101,
       "length": 5,
       "value": "false"
     },
