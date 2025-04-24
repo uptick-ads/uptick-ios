@@ -10,6 +10,18 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class IconView : UIKit.UIView {
+  @objc deinit
+}
+public enum Colors {
+  public static let primary: UIKit.UIColor
+  public static let white: UIKit.UIColor
+  public static let black: UIKit.UIColor
+  public static let normalText: UIKit.UIColor
+  public static let secondary: UIKit.UIColor
+  public static let subdued: UIKit.UIColor
+  public static let monochrome: UIKit.UIColor
+}
 @_inheritsConvenienceInitializers @available(iOSApplicationExtension, unavailable)
 @objc final public class UptickManager : ObjectiveC.NSObject {
   @objc public static let shared: UptickSDK.UptickManager
