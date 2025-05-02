@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vYIluM62sNObtGQeDMqbfkheeNA=
+		SxckGcBxGgkOxHUU+rizAV6UEfU=
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nJEUmncddNyzq1bKk0taMNG0T38=
+		44xC344ly5Yyu8r1s81FhfnYXAc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pVU9WTgCpP5tg4km//CCU0hHydNd18jhGUoOGNO1cqY=
+			VRnBQe69Df6pWsB8SmMrSS2RPPgpgsU1txTfbCt0+Os=
 			</data>
 		</dict>
 		<key>Modules/UptickSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MZET6WbZv1IYS1ASJZIDn1h1BhHDxM1xgaVfEtjfqRk=
+			gitQ6K3GoLWDmI4dxMUiofT0RRS+Pajg3zl1kW8phX8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
