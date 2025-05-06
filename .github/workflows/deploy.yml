@@ -31,18 +31,26 @@ jobs:
         files: 'UptickSDK.xcframework.zip'
         fail_on_unmatched_files: false
 
+  publish_to_cocoapods:
+    runs-on: macos-latest
+    needs: [create_release]
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
     - name: Extract Version from Podspec
       id: version_extractor
       run: |
-          VERSION=$(grep -E 'spec.version\s*=\s*"[^"]*"' UptickSDK.podspec | sed -E 's/.*spec.version\s*=\s*"([^"]*)".*/\1/')
-          echo "Current version: $VERSION"
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
+        VERSION=$(grep -E 'spec.version\s*=\s*"[^"]*"' UptickSDK.podspec | sed -E 's/.*spec.version\s*=\s*"([^"]*)".*/\1/')
+        echo "Current version: $VERSION"
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
  
     - name: Setup Ruby and Cocoapods
       uses: ruby/setup-ruby@v1
       with:
-          ruby-version: '3.1'
-          bundler-cache: true
+        ruby-version: '3.1'
+        bundler-cache: true
  
     - name: Validate Podspec
       run: pod lib lint --allow-warnings --verbose
@@ -50,4 +58,4 @@ jobs:
     - name: Publish to Cocoapods Trunk
       run: pod trunk push UptickSDK.podspec --allow-warnings --verbose
       env:
-          COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
