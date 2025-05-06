@@ -58,4 +58,4 @@ jobs:
     - name: Publish to Cocoapods Trunk
       run: pod trunk push UptickSDK.podspec --allow-warnings --verbose
       env:
-          COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+        COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
