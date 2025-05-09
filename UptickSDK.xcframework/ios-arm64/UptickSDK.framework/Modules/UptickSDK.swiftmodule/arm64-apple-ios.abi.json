@@ -2216,35 +2216,6 @@
         "kind": "TypeDecl",
         "name": "UptickAdView",
         "printedName": "UptickAdView",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "layoutSubviews",
-            "printedName": "layoutSubviews()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@UptickSDK@objc(cs)UptickAdView(im)layoutSubviews",
-            "mangledName": "$s9UptickSDK0A6AdViewC14layoutSubviewsyyF",
-            "moduleName": "UptickSDK",
-            "overriding": true,
-            "objc_name": "layoutSubviews",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
         "declKind": "Class",
         "usr": "c:@M@UptickSDK@objc(cs)UptickAdView",
         "mangledName": "$s9UptickSDK0A6AdViewC",
@@ -2253,7 +2224,6 @@
           "Preconcurrency",
           "Custom",
           "AccessControl",
-          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIView",

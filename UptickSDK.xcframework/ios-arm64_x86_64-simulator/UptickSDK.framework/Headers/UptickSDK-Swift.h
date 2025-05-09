@@ -322,11 +322,8 @@ SWIFT_CLASS("_TtC9UptickSDK8IconView")
 SWIFT_CLASS("_TtC9UptickSDK12UptickAdView")
 @interface UptickAdView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-- (void)layoutSubviews;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 @end
-
-
 
 @class NSString;
 @class Offer;
@@ -693,11 +690,8 @@ SWIFT_CLASS("_TtC9UptickSDK8IconView")
 SWIFT_CLASS("_TtC9UptickSDK12UptickAdView")
 @interface UptickAdView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-- (void)layoutSubviews;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 @end
-
-
 
 @class NSString;
 @class Offer;
