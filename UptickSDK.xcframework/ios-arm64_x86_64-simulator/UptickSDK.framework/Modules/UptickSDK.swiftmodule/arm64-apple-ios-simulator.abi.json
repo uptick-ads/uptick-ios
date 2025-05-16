@@ -2216,6 +2216,82 @@
         "kind": "TypeDecl",
         "name": "UptickAdView",
         "printedName": "UptickAdView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "presentAsPopup",
+            "printedName": "presentAsPopup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UptickSDK0A6AdViewC14presentAsPopupyyF",
+            "mangledName": "$s9UptickSDK0A6AdViewC14presentAsPopupyyF",
+            "moduleName": "UptickSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removePopupIfNeeded",
+            "printedName": "removePopupIfNeeded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UptickSDK0A6AdViewC19removePopupIfNeededyyF",
+            "mangledName": "$s9UptickSDK0A6AdViewC19removePopupIfNeededyyF",
+            "moduleName": "UptickSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeFromSuperview",
+            "printedName": "removeFromSuperview()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UptickSDK@objc(cs)UptickAdView(im)removeFromSuperview",
+            "mangledName": "$s9UptickSDK0A6AdViewC19removeFromSuperviewyyF",
+            "moduleName": "UptickSDK",
+            "overriding": true,
+            "objc_name": "removeFromSuperview",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
         "declKind": "Class",
         "usr": "c:@M@UptickSDK@objc(cs)UptickAdView",
         "mangledName": "$s9UptickSDK0A6AdViewC",
@@ -3214,6 +3290,13 @@
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/ActionButton.swift",
       "kind": "BooleanLiteral",
       "offset": 318,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1016,
       "length": 5,
       "value": "false"
     },

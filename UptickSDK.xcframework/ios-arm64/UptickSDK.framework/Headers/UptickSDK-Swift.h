@@ -323,6 +323,8 @@ SWIFT_CLASS("_TtC9UptickSDK12UptickAdView")
 @interface UptickAdView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+/// Standard override. Do not remove overlay here to avoid double-removal.
+- (void)removeFromSuperview;
 @end
 
 @class NSString;

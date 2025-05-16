@@ -40,6 +40,9 @@ public enum Colors {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class UptickAdView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public func presentAsPopup()
+  @_Concurrency.MainActor @preconcurrency public func removePopupIfNeeded()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func removeFromSuperview()
   @objc deinit
 }
 public enum UptickData {
