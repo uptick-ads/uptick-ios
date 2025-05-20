@@ -137,7 +137,7 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
     spec.ios.deployment_target = '15.0'
-    spec.source_files  = "Sources/**/*.{swift,h,m}"
+    # spec.source_files  = "Sources/**/*.{swift,h,m}"
     spec.frameworks = 'UIKit', 'Foundation'
     spec.swift_version = '5.0'
 end
