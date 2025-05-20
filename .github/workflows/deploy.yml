@@ -16,6 +16,13 @@ jobs:
     - name: Zip up the XCFramework
       run: zip -r UptickSDK.xcframework.zip UptickSDK.xcframework
 
+    - name: Log GitHub Context
+      run: |
+        echo "Ref Name: ${{ github.ref_name }}"
+        echo "Commit Message: ${{ github.event.head_commit.message }}"
+        echo "GitHub Context:"
+        echo "${{ toJson(github) }}"
+
     - name: Create Release
       id: create_release
       uses: softprops/action-gh-release@v2

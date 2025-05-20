@@ -28,7 +28,6 @@ Pod::Spec.new do |spec|
         The Uptick SDK enables publishers to integrate ad solutions easily in their iOS apps,supporting various ad formats and targeting options.
         DESC
 
-  # spec.homepage     = "https://github.com/axeldeploy/uptick-ios"
   spec.homepage     = "https://github.com/uptick-ads/uptick-ios"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -92,7 +91,6 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.vendored_frameworks = 'UptickSDK.xcframework'
   spec.exclude_files = "Classes/Exclude"
 
@@ -137,7 +135,6 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
     spec.ios.deployment_target = '15.0'
-    # spec.source_files  = "Sources/**/*.{swift,h,m}"
     spec.frameworks = 'UIKit', 'Foundation'
     spec.swift_version = '5.0'
 end
