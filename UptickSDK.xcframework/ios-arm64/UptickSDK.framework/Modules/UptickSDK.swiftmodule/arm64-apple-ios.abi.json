@@ -3390,6 +3390,188 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3391,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3665,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3922,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4200,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4278,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4532,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4604,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4869,
+      "length": 2,
+      "value": "84"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4872,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4884,
+      "length": 2,
+      "value": "84"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4887,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4898,
+      "length": 2,
+      "value": "84"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4901,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "FloatLiteral",
+      "offset": 4913,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4998,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5049,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5119,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "StringLiteral",
+      "offset": 5255,
+      "length": 9,
+      "value": "\"primary\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "StringLiteral",
+      "offset": 5358,
+      "length": 11,
+      "value": "\"secondary\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5528,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "StringLiteral",
+      "offset": 5780,
+      "length": 6,
+      "value": "\"link\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5984,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6057,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6277,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "FloatLiteral",
+      "offset": 6515,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
+      "kind": "StringLiteral",
+      "offset": 6661,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/ShimmerView.swift",
       "kind": "Array",
       "offset": 749,
