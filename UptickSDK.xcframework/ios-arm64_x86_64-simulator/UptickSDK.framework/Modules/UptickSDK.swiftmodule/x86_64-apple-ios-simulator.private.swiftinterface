@@ -43,6 +43,8 @@ public enum Colors {
   @_Concurrency.MainActor @preconcurrency public func presentAsPopup()
   @_Concurrency.MainActor @preconcurrency public func removePopupIfNeeded()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func removeFromSuperview()
+  @_Concurrency.MainActor @preconcurrency public func showShimmer()
+  @_Concurrency.MainActor @preconcurrency public func hideShimmer()
   @objc deinit
 }
 public enum UptickData {

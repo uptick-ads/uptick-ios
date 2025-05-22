@@ -2290,6 +2290,50 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showShimmer",
+            "printedName": "showShimmer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UptickSDK0A6AdViewC11showShimmeryyF",
+            "mangledName": "$s9UptickSDK0A6AdViewC11showShimmeryyF",
+            "moduleName": "UptickSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideShimmer",
+            "printedName": "hideShimmer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UptickSDK0A6AdViewC11hideShimmeryyF",
+            "mangledName": "$s9UptickSDK0A6AdViewC11hideShimmeryyF",
+            "moduleName": "UptickSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -2423,17 +2467,17 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "UptickSDK"
+        "moduleName": "UptickSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "UptickSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "UptickSDK"
       },
       {
         "kind": "Import",
@@ -2476,6 +2520,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UptickSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -3296,7 +3350,21 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1016,
+      "offset": 1017,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1333,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1395,
       "length": 5,
       "value": "false"
     },
@@ -3320,6 +3388,13 @@
       "offset": 1096,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/ShimmerView.swift",
+      "kind": "Array",
+      "offset": 749,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
