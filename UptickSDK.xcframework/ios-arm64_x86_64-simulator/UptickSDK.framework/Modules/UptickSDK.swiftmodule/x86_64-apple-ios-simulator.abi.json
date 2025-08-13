@@ -12,527 +12,6 @@
         "moduleName": "UptickSDK"
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UptickSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "IconView",
-        "printedName": "IconView",
-        "declKind": "Class",
-        "usr": "c:@M@UptickSDK@objc(cs)IconView",
-        "mangledName": "$s9UptickSDK8IconViewC",
-        "moduleName": "UptickSDK",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl",
-          "RawDocComment",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIView",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIView",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UptickSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UptickSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Colors",
-        "printedName": "Colors",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "primary",
-            "printedName": "primary",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9UptickSDK6ColorsO7primarySo7UIColorCvpZ",
-            "mangledName": "$s9UptickSDK6ColorsO7primarySo7UIColorCvpZ",
-            "moduleName": "UptickSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UptickSDK6ColorsO7primarySo7UIColorCvgZ",
-                "mangledName": "$s9UptickSDK6ColorsO7primarySo7UIColorCvgZ",
-                "moduleName": "UptickSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "white",
-            "printedName": "white",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9UptickSDK6ColorsO5whiteSo7UIColorCvpZ",
-            "mangledName": "$s9UptickSDK6ColorsO5whiteSo7UIColorCvpZ",
-            "moduleName": "UptickSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UptickSDK6ColorsO5whiteSo7UIColorCvgZ",
-                "mangledName": "$s9UptickSDK6ColorsO5whiteSo7UIColorCvgZ",
-                "moduleName": "UptickSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "black",
-            "printedName": "black",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9UptickSDK6ColorsO5blackSo7UIColorCvpZ",
-            "mangledName": "$s9UptickSDK6ColorsO5blackSo7UIColorCvpZ",
-            "moduleName": "UptickSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UptickSDK6ColorsO5blackSo7UIColorCvgZ",
-                "mangledName": "$s9UptickSDK6ColorsO5blackSo7UIColorCvgZ",
-                "moduleName": "UptickSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "normalText",
-            "printedName": "normalText",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9UptickSDK6ColorsO10normalTextSo7UIColorCvpZ",
-            "mangledName": "$s9UptickSDK6ColorsO10normalTextSo7UIColorCvpZ",
-            "moduleName": "UptickSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UptickSDK6ColorsO10normalTextSo7UIColorCvgZ",
-                "mangledName": "$s9UptickSDK6ColorsO10normalTextSo7UIColorCvgZ",
-                "moduleName": "UptickSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "secondary",
-            "printedName": "secondary",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9UptickSDK6ColorsO9secondarySo7UIColorCvpZ",
-            "mangledName": "$s9UptickSDK6ColorsO9secondarySo7UIColorCvpZ",
-            "moduleName": "UptickSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UptickSDK6ColorsO9secondarySo7UIColorCvgZ",
-                "mangledName": "$s9UptickSDK6ColorsO9secondarySo7UIColorCvgZ",
-                "moduleName": "UptickSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "subdued",
-            "printedName": "subdued",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9UptickSDK6ColorsO7subduedSo7UIColorCvpZ",
-            "mangledName": "$s9UptickSDK6ColorsO7subduedSo7UIColorCvpZ",
-            "moduleName": "UptickSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UptickSDK6ColorsO7subduedSo7UIColorCvgZ",
-                "mangledName": "$s9UptickSDK6ColorsO7subduedSo7UIColorCvgZ",
-                "moduleName": "UptickSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "monochrome",
-            "printedName": "monochrome",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9UptickSDK6ColorsO10monochromeSo7UIColorCvpZ",
-            "mangledName": "$s9UptickSDK6ColorsO10monochromeSo7UIColorCvpZ",
-            "moduleName": "UptickSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9UptickSDK6ColorsO10monochromeSo7UIColorCvgZ",
-                "mangledName": "$s9UptickSDK6ColorsO10monochromeSo7UIColorCvgZ",
-                "moduleName": "UptickSDK",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:9UptickSDK6ColorsO",
-        "mangledName": "$s9UptickSDK6ColorsO",
-        "moduleName": "UptickSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UptickSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UptickSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreGraphics",
-        "printedName": "CoreGraphics",
-        "declKind": "Import",
-        "moduleName": "UptickSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UptickSDK"
-      },
-      {
         "kind": "TypeDecl",
         "name": "UptickManager",
         "printedName": "UptickManager",
@@ -2265,34 +1744,6 @@
           },
           {
             "kind": "Function",
-            "name": "removeFromSuperview",
-            "printedName": "removeFromSuperview()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@UptickSDK@objc(cs)UptickAdView(im)removeFromSuperview",
-            "mangledName": "$s9UptickSDK0A6AdViewC19removeFromSuperviewyyF",
-            "moduleName": "UptickSDK",
-            "overriding": true,
-            "objc_name": "removeFromSuperview",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "showShimmer",
             "printedName": "showShimmer()",
             "children": [
@@ -2431,13 +1882,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -2467,6 +1911,527 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IconView",
+        "printedName": "IconView",
+        "declKind": "Class",
+        "usr": "c:@M@UptickSDK@objc(cs)IconView",
+        "mangledName": "$s9UptickSDK8IconViewC",
+        "moduleName": "UptickSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UptickSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Colors",
+        "printedName": "Colors",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "primary",
+            "printedName": "primary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UptickSDK6ColorsO7primarySo7UIColorCvpZ",
+            "mangledName": "$s9UptickSDK6ColorsO7primarySo7UIColorCvpZ",
+            "moduleName": "UptickSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UptickSDK6ColorsO7primarySo7UIColorCvgZ",
+                "mangledName": "$s9UptickSDK6ColorsO7primarySo7UIColorCvgZ",
+                "moduleName": "UptickSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "white",
+            "printedName": "white",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UptickSDK6ColorsO5whiteSo7UIColorCvpZ",
+            "mangledName": "$s9UptickSDK6ColorsO5whiteSo7UIColorCvpZ",
+            "moduleName": "UptickSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UptickSDK6ColorsO5whiteSo7UIColorCvgZ",
+                "mangledName": "$s9UptickSDK6ColorsO5whiteSo7UIColorCvgZ",
+                "moduleName": "UptickSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "black",
+            "printedName": "black",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UptickSDK6ColorsO5blackSo7UIColorCvpZ",
+            "mangledName": "$s9UptickSDK6ColorsO5blackSo7UIColorCvpZ",
+            "moduleName": "UptickSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UptickSDK6ColorsO5blackSo7UIColorCvgZ",
+                "mangledName": "$s9UptickSDK6ColorsO5blackSo7UIColorCvgZ",
+                "moduleName": "UptickSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "normalText",
+            "printedName": "normalText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UptickSDK6ColorsO10normalTextSo7UIColorCvpZ",
+            "mangledName": "$s9UptickSDK6ColorsO10normalTextSo7UIColorCvpZ",
+            "moduleName": "UptickSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UptickSDK6ColorsO10normalTextSo7UIColorCvgZ",
+                "mangledName": "$s9UptickSDK6ColorsO10normalTextSo7UIColorCvgZ",
+                "moduleName": "UptickSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secondary",
+            "printedName": "secondary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UptickSDK6ColorsO9secondarySo7UIColorCvpZ",
+            "mangledName": "$s9UptickSDK6ColorsO9secondarySo7UIColorCvpZ",
+            "moduleName": "UptickSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UptickSDK6ColorsO9secondarySo7UIColorCvgZ",
+                "mangledName": "$s9UptickSDK6ColorsO9secondarySo7UIColorCvgZ",
+                "moduleName": "UptickSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subdued",
+            "printedName": "subdued",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UptickSDK6ColorsO7subduedSo7UIColorCvpZ",
+            "mangledName": "$s9UptickSDK6ColorsO7subduedSo7UIColorCvpZ",
+            "moduleName": "UptickSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UptickSDK6ColorsO7subduedSo7UIColorCvgZ",
+                "mangledName": "$s9UptickSDK6ColorsO7subduedSo7UIColorCvgZ",
+                "moduleName": "UptickSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "monochrome",
+            "printedName": "monochrome",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UptickSDK6ColorsO10monochromeSo7UIColorCvpZ",
+            "mangledName": "$s9UptickSDK6ColorsO10monochromeSo7UIColorCvpZ",
+            "moduleName": "UptickSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UptickSDK6ColorsO10monochromeSo7UIColorCvgZ",
+                "mangledName": "$s9UptickSDK6ColorsO10monochromeSo7UIColorCvgZ",
+                "moduleName": "UptickSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9UptickSDK6ColorsO",
+        "mangledName": "$s9UptickSDK6ColorsO",
+        "moduleName": "UptickSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "UptickSDK",
         "declAttributes": [
           "RawDocComment"
@@ -2490,58 +2455,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UptickSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UptickSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UptickSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "UptickSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UptickSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UptickSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UptickSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "UptickSDK"
       },
@@ -2999,6 +2912,37 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UptickSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3013,267 +2957,512 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UptickSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UptickSDK"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Colors.swift",
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1012,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1320,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1382,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 620,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 737,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 817,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 885,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 991,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1048,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1107,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1181,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1294,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1362,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1434,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1522,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1607,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1677,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1803,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1886,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1960,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2089,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2175,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 82,
       "length": 9,
       "value": "\"Primary\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Colors.swift",
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 464,
       "length": 12,
       "value": "\"NormalText\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Colors.swift",
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 544,
       "length": 11,
       "value": "\"Secondary\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Colors.swift",
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 641,
       "length": 9,
       "value": "\"Subdued\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Colors.swift",
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 728,
       "length": 12,
       "value": "\"Monochrome\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/ActionButton.swift",
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/ActionButton.swift",
       "kind": "BooleanLiteral",
       "offset": 318,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1017,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 64,
+      "length": 7,
+      "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1333,
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 176,
+      "length": 16,
+      "value": "\"api.uptick.com\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 36,
+      "value": "\"\/v1\/places\/integrationId\/flows\/new\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 50,
+      "value": "\"\/v1\/places\/integrationId\/flows\/flowId\/offers\/new\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 11,
+      "value": "\"placement\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 433,
+      "length": 20,
+      "value": "\"order_confirmation\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 486,
+      "length": 12,
+      "value": "\"first_name\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 533,
+      "length": 14,
+      "value": "\"country_code\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 581,
+      "length": 13,
+      "value": "\"total_price\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 631,
+      "length": 16,
+      "value": "\"shipping_price\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
       "length": 4,
-      "value": "true"
+      "value": "\"ev\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1395,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 14,
+      "value": "\"offer_viewed\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 763,
+      "length": 12,
+      "value": "\"first_name\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "StringLiteral",
-      "offset": 707,
+      "offset": 703,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "Array",
-      "offset": 1003,
+      "offset": 999,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1096,
+      "offset": 1088,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3481,
+      "offset": 3554,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3755,
+      "offset": 3820,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4012,
+      "offset": 4069,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4290,
+      "offset": 4339,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4368,
+      "offset": 4417,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4622,
+      "offset": 4663,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4694,
+      "offset": 4735,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4959,
+      "offset": 4992,
       "length": 2,
       "value": "84"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4962,
+      "offset": 4995,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4974,
+      "offset": 5007,
       "length": 2,
       "value": "84"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4977,
+      "offset": 5010,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4988,
+      "offset": 5021,
       "length": 2,
       "value": "84"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4991,
+      "offset": 5024,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "FloatLiteral",
-      "offset": 5003,
+      "offset": 5036,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5088,
+      "offset": 5121,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5139,
+      "offset": 5172,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5209,
+      "offset": 5242,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "StringLiteral",
-      "offset": 5345,
+      "offset": 5370,
       "length": 9,
       "value": "\"primary\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "StringLiteral",
-      "offset": 5448,
+      "offset": 5473,
       "length": 11,
       "value": "\"secondary\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5618,
+      "offset": 5643,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5868,
+      "offset": 5885,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5941,
+      "offset": 5958,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6161,
+      "offset": 6170,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "FloatLiteral",
-      "offset": 6399,
+      "offset": 6386,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickService.swift",
       "kind": "StringLiteral",
-      "offset": 6545,
+      "offset": 6530,
       "length": 3,
       "value": "\" \""
     },
@@ -3297,139 +3486,6 @@
       "offset": 863,
       "length": 4,
       "value": "0.05"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 620,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 737,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 817,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 885,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 991,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1048,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1107,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1181,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1294,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1362,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1434,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1522,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1607,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1677,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1803,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1886,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1960,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2089,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2175,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
@@ -3476,107 +3532,16 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
       "kind": "StringLiteral",
-      "offset": 448,
+      "offset": 440,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
       "kind": "StringLiteral",
-      "offset": 498,
+      "offset": 490,
       "length": 6,
       "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 64,
-      "length": 7,
-      "value": "\"https\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 176,
-      "length": 16,
-      "value": "\"api.uptick.com\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 238,
-      "length": 36,
-      "value": "\"\/v1\/places\/integrationId\/flows\/new\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 306,
-      "length": 50,
-      "value": "\"\/v1\/places\/integrationId\/flows\/flowId\/offers\/new\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 389,
-      "length": 11,
-      "value": "\"placement\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 433,
-      "length": 20,
-      "value": "\"order_confirmation\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 486,
-      "length": 12,
-      "value": "\"first_name\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 533,
-      "length": 14,
-      "value": "\"country_code\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 581,
-      "length": 13,
-      "value": "\"total_price\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 631,
-      "length": 16,
-      "value": "\"shipping_price\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 682,
-      "length": 4,
-      "value": "\"ev\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 721,
-      "length": 14,
-      "value": "\"offer_viewed\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Resource\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 763,
-      "length": 12,
-      "value": "\"first_name\""
     }
   ]
 }
