@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name UptickSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name UptickSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import CoreGraphics
 import Foundation
 import Swift
@@ -10,29 +10,12 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers @available(iOSApplicationExtension, unavailable)
-@objc final public class UptickManager : ObjectiveC.NSObject {
-  @objc public static let shared: UptickSDK.UptickManager
-  @objc final public var errorMessage: ((_ errorText: Swift.String) -> Swift.Void)?
-  @objc final public var renderType: ((_ renderType: Swift.String) -> Swift.Void)?
-  @objc final public var onDisappearOffer: (() -> Swift.Void)?
-  @objc final public var onReceivedOffer: ((_ offer: UptickSDK.UptickData.Offer) -> Swift.Void)?
-  @objc final public var onViewedOffer: ((_ offer: UptickSDK.UptickData.Offer) -> Swift.Void)?
-  @objc final public var onAcceptedOffer: ((_ offer: UptickSDK.UptickData.Offer) -> Swift.Void)?
-  @objc final public var onRejectedOffer: ((_ offer: UptickSDK.UptickData.Offer) -> Swift.Void)?
-  @objc final public var backgroundColor: UIKit.UIColor
-  @objc final public var primaryColor: UIKit.UIColor
-  @objc final public var secondaryColor: UIKit.UIColor
-  @_Concurrency.MainActor @objc final public func activateAd(in view: UptickSDK.UptickAdView, withID: Swift.String, parameters: [Swift.String : Any]? = nil)
-  @objc override dynamic public init()
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class UptickAdView : UIKit.UIView {
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class UptickAdView : UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public func presentAsPopup()
-  @_Concurrency.MainActor @preconcurrency public func removePopupIfNeeded()
-  @_Concurrency.MainActor @preconcurrency public func showShimmer()
-  @_Concurrency.MainActor @preconcurrency public func hideShimmer()
-  @objc deinit
+extension UptickSDK.UptickAdView {
+  @_Concurrency.MainActor @preconcurrency public func showShimmerV2()
+  @_Concurrency.MainActor @preconcurrency public func hideShimmerV2()
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class IconView : UIKit.UIView {
   @objc deinit
@@ -45,6 +28,7 @@ public enum Colors {
   public static let secondary: UIKit.UIColor
   public static let subdued: UIKit.UIColor
   public static let monochrome: UIKit.UIColor
+  public static let lightModeSecondary: UIKit.UIColor
 }
 public enum UptickData {
   @objc @_hasMissingDesignatedInitializers public class Offer : ObjectiveC.NSObject {
@@ -62,4 +46,21 @@ public enum UptickData {
     }
     @objc deinit
   }
+}
+@_inheritsConvenienceInitializers @available(iOSApplicationExtension, unavailable)
+@objc final public class UptickManager : ObjectiveC.NSObject {
+  @objc public static let shared: UptickSDK.UptickManager
+  @objc final public var errorMessage: ((_ errorText: Swift.String) -> Swift.Void)?
+  @objc final public var renderType: ((_ renderType: Swift.String) -> Swift.Void)?
+  @objc final public var onDisappearOffer: (() -> Swift.Void)?
+  @objc final public var onReceivedOffer: ((_ offer: UptickSDK.UptickData.Offer) -> Swift.Void)?
+  @objc final public var onViewedOffer: ((_ offer: UptickSDK.UptickData.Offer) -> Swift.Void)?
+  @objc final public var onAcceptedOffer: ((_ offer: UptickSDK.UptickData.Offer) -> Swift.Void)?
+  @objc final public var onRejectedOffer: ((_ offer: UptickSDK.UptickData.Offer) -> Swift.Void)?
+  @objc final public var backgroundColor: UIKit.UIColor
+  @objc final public var primaryColor: UIKit.UIColor
+  @objc final public var secondaryColor: UIKit.UIColor
+  @_Concurrency.MainActor @objc final public func activateAd(in view: UptickSDK.UptickAdView, withID: Swift.String, parameters: [Swift.String : Any]? = nil)
+  @objc override dynamic public init()
+  @objc deinit
 }
