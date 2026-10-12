@@ -345,9 +345,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UptickManage
 ///
 /// \param withID The unique integration ID for identifying the ad.
 ///
+/// \param siteUrl The full URL of the publisher’s site the shopper is on, e.g. <code>https://www.example.com/</code>. Sent as <code>dl</code> on
+/// every request so offers, site targeting and site blocking resolve to the right publisher site.
+///
 /// \param parameters Optional additional parameters for the ad request as a dictionary of <code>[String: Any]</code>.
 ///
-- (void)activateAdIn:(UptickAdView * _Nonnull)view withID:(NSString * _Nonnull)withID parameters:(NSDictionary<NSString *, id> * _Nullable)parameters;
+///
+/// throws:
+/// <code>UptickError.invalidSiteUrl</code> if <code>siteUrl</code> is not a full http(s) URL. No flow is started.
+- (BOOL)activateAdIn:(UptickAdView * _Nonnull)view withID:(NSString * _Nonnull)withID siteUrl:(NSString * _Nonnull)siteUrl parameters:(NSDictionary<NSString *, id> * _Nullable)parameters error:(NSError * _Nullable * _Nullable)error;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -706,9 +712,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UptickManage
 ///
 /// \param withID The unique integration ID for identifying the ad.
 ///
+/// \param siteUrl The full URL of the publisher’s site the shopper is on, e.g. <code>https://www.example.com/</code>. Sent as <code>dl</code> on
+/// every request so offers, site targeting and site blocking resolve to the right publisher site.
+///
 /// \param parameters Optional additional parameters for the ad request as a dictionary of <code>[String: Any]</code>.
 ///
-- (void)activateAdIn:(UptickAdView * _Nonnull)view withID:(NSString * _Nonnull)withID parameters:(NSDictionary<NSString *, id> * _Nullable)parameters;
+///
+/// throws:
+/// <code>UptickError.invalidSiteUrl</code> if <code>siteUrl</code> is not a full http(s) URL. No flow is started.
+- (BOOL)activateAdIn:(UptickAdView * _Nonnull)view withID:(NSString * _Nonnull)withID siteUrl:(NSString * _Nonnull)siteUrl parameters:(NSDictionary<NSString *, id> * _Nullable)parameters error:(NSError * _Nullable * _Nullable)error;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

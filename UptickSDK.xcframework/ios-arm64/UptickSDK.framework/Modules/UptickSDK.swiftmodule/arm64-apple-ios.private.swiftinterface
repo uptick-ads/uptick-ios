@@ -47,6 +47,13 @@ public enum UptickData {
     @objc deinit
   }
 }
+public enum UptickError : Foundation.LocalizedError, Swift.Equatable {
+  case invalidSiteUrl(Swift.String)
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: UptickSDK.UptickError, b: UptickSDK.UptickError) -> Swift.Bool
+}
 @_inheritsConvenienceInitializers @available(iOSApplicationExtension, unavailable)
 @objc final public class UptickManager : ObjectiveC.NSObject {
   @objc public static let shared: UptickSDK.UptickManager
@@ -60,7 +67,7 @@ public enum UptickData {
   @objc final public var backgroundColor: UIKit.UIColor
   @objc final public var primaryColor: UIKit.UIColor
   @objc final public var secondaryColor: UIKit.UIColor
-  @_Concurrency.MainActor @objc final public func activateAd(in view: UptickSDK.UptickAdView, withID: Swift.String, parameters: [Swift.String : Any]? = nil)
+  @_Concurrency.MainActor @objc final public func activateAd(in view: UptickSDK.UptickAdView, withID: Swift.String, siteUrl: Swift.String, parameters: [Swift.String : Any]? = nil) throws
   @objc override dynamic public init()
   @objc deinit
 }

@@ -1530,6 +1530,202 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "UptickError",
+        "printedName": "UptickError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidSiteUrl",
+            "printedName": "invalidSiteUrl",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UptickSDK.UptickError.Type) -> (Swift.String) -> UptickSDK.UptickError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> UptickSDK.UptickError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UptickError",
+                        "printedName": "UptickSDK.UptickError",
+                        "usr": "s:9UptickSDK0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UptickSDK.UptickError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UptickError",
+                        "printedName": "UptickSDK.UptickError",
+                        "usr": "s:9UptickSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9UptickSDK0A5ErrorO14invalidSiteUrlyACSScACmF",
+            "mangledName": "$s9UptickSDK0A5ErrorO14invalidSiteUrlyACSScACmF",
+            "moduleName": "UptickSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9UptickSDK0A5ErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s9UptickSDK0A5ErrorO16errorDescriptionSSSgvp",
+            "moduleName": "UptickSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9UptickSDK0A5ErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s9UptickSDK0A5ErrorO16errorDescriptionSSSgvg",
+                "moduleName": "UptickSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UptickError",
+                "printedName": "UptickSDK.UptickError",
+                "usr": "s:9UptickSDK0A5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UptickError",
+                "printedName": "UptickSDK.UptickError",
+                "usr": "s:9UptickSDK0A5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9UptickSDK0A5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9UptickSDK0A5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "UptickSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9UptickSDK0A5ErrorO",
+        "mangledName": "$s9UptickSDK0A5ErrorO",
+        "moduleName": "UptickSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UptickManager",
         "printedName": "UptickManager",
         "children": [
@@ -3017,7 +3213,7 @@
           {
             "kind": "Function",
             "name": "activateAd",
-            "printedName": "activateAd(in:withID:parameters:)",
+            "printedName": "activateAd(in:withID:siteUrl:parameters:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3029,6 +3225,12 @@
                 "name": "UptickAdView",
                 "printedName": "UptickSDK.UptickAdView",
                 "usr": "c:@M@UptickSDK@objc(cs)UptickAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -3066,10 +3268,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@UptickSDK@objc(cs)UptickManager(im)activateAdIn:withID:parameters:",
-            "mangledName": "$s9UptickSDK0A7ManagerC10activateAd2in6withID10parametersyAA0aE4ViewC_SSSDySSypGSgtF",
+            "usr": "c:@M@UptickSDK@objc(cs)UptickManager(im)activateAdIn:withID:siteUrl:parameters:error:",
+            "mangledName": "$s9UptickSDK0A7ManagerC10activateAd2in6withID7siteUrl10parametersyAA0aE4ViewC_S2SSDySSypGSgtKF",
             "moduleName": "UptickSDK",
-            "objc_name": "activateAdIn:withID:parameters:",
+            "objc_name": "activateAdIn:withID:siteUrl:parameters:error:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -3077,6 +3279,7 @@
               "Custom",
               "RawDocComment"
             ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -3543,6 +3746,13 @@
       "offset": 2063,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Services\/HTTP\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 140,
+      "length": 4,
+      "value": "\"dl\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/Services\/HTTP\/HTTPStatusCode.swift",
