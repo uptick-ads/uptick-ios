@@ -9,6 +9,16 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "UptickSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "UptickSDK"
       },
       {
@@ -383,16 +393,6 @@
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "UptickSDK",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -3404,6 +3404,13 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/Library\/Developer\/Xcode\/DerivedData\/UptickSDK-evrzffimyrwrlphdwpcdesjpqssd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/UptickSDK\/IntermediateBuildFilesPath\/UptickSDK.build\/Release-iphoneos\/UptickSDK.build\/DerivedSources\/UptickSDKVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 138,
+      "length": 14,
+      "value": "\"2026.10.14+1\""
+    },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
       "kind": "StringLiteral",
