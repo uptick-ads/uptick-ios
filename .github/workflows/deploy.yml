@@ -22,6 +22,22 @@ jobs:
         echo "Ref Name: ${{ github.ref_name }}"
         echo "Commit Message: ${{ github.event.head_commit.message }}"
 
+    # ios-sdk commits "Release v1.1.0 (2026.10.21+1)", so the release is named "1.1.0 (2026.10.21+1)" and maps back to the ios-sdk CalVer tag.
+    - name: Name the release
+      id: release_name
+      env:
+        COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+        TAG: ${{ github.ref_name }}
+      run: |
+        FIRST_LINE="$(printf '%s\n' "$COMMIT_MESSAGE" | head -n 1)"
+        if [[ "$FIRST_LINE" =~ ^Release\ v?([0-9]+\.[0-9]+\.[0-9]+\ \(.+\))$ ]]; then
+          NAME="${BASH_REMATCH[1]}"
+        else
+          NAME="Release $TAG"
+        fi
+        echo "Release name: $NAME"
+        echo "name=$NAME" >> "$GITHUB_OUTPUT"
+
     - name: Create Release
       id: create_release
       uses: softprops/action-gh-release@v2
@@ -29,7 +45,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.PPX_DIGITAL_ACTIONS_PAT }}
       with:
         tag_name: ${{ github.ref_name }}
-        name: Release ${{  github.ref_name }}
+        name: ${{ steps.release_name.outputs.name }}
         body: ${{ github.event.head_commit.message }}
         draft: false
         prerelease: false

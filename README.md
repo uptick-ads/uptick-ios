@@ -17,7 +17,7 @@ You can integrate the Uptick SDK using Swift Package Manager. Follow these steps
    ```
    https://github.com/uptick-ads/uptick-ios
    ```
-7. Select the **main** branch and press **Add Package**.
+7. Set **Dependency Rule** to **Up to Next Major Version** from `1.1.0` and press **Add Package**. You get every compatible `1.x` release without picking up breaking changes.
 8. Assign the package to your app target.
 
 ### 2. Manual XCFramework Integration
