@@ -3416,7 +3416,7 @@
       "kind": "StringLiteral",
       "offset": 138,
       "length": 14,
-      "value": "\"2026.10.27+2\""
+      "value": "\"2026.10.27+3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
@@ -3435,21 +3435,21 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1327,
+      "offset": 1466,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1637,
+      "offset": 1776,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/UptickAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1699,
+      "offset": 1838,
       "length": 5,
       "value": "false"
     },
@@ -3627,69 +3627,6 @@
       "offset": 860,
       "length": 3,
       "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Colors.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1162,
-      "length": 8,
-      "value": "0x1F2937"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Colors.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1238,
-      "length": 8,
-      "value": "0xE5E7EB"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Colors.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1311,
-      "length": 8,
-      "value": "0xF3F4F6"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Colors.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1387,
-      "length": 8,
-      "value": "0x9CA3AF"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Colors.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1469,
-      "length": 8,
-      "value": "0x374151"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Colors.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1556,
-      "length": 8,
-      "value": "0xF3F4F6"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Colors.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1631,
-      "length": 8,
-      "value": "0x9CA3AF"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Colors.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1699,
-      "length": 8,
-      "value": "0x374151"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/Colors.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1786,
-      "length": 8,
-      "value": "0x4B5563"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Resource\/UIView+Layout.swift",
@@ -3904,7 +3841,7 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/v1\/Models\/OfferModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3148,
+      "offset": 4778,
       "length": 5,
       "value": "false"
     },
@@ -3939,14 +3876,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/ShimmerView.swift",
       "kind": "FloatLiteral",
-      "offset": 694,
+      "offset": 801,
       "length": 4,
       "value": "0.02"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk\/ios-sdk\/ios-sdk\/UptickSDK\/ShimmerView.swift",
       "kind": "FloatLiteral",
-      "offset": 743,
+      "offset": 850,
       "length": 4,
       "value": "0.05"
     }
